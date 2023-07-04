@@ -1,0 +1,23 @@
+@font-face{
+font-family:'kat';
+src:url('../font/kat.ttf');
+}
+@font-face{
+font-family:'sq';
+src: url('../font/sq.ttf');
+}
+
+.ttf-kat{
+font-family:kat;
+}
+.ttf-sq{
+font-family:sq;
+}
+
+.limit{
+display:block;
+overflow:hidden;
+word-break:keep-all;
+white-space:nowrap;
+text-overflow:ellipsis;
+}
