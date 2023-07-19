@@ -85,7 +85,7 @@
 『id:1171』『text:风牛流马•我带你回家』『type:e』『from:ccdalao』『from_who:null』『creator:KKMC』『creator_uid:312』『created_at:1492774038』『length:10』
 『id:1172』『text:我只是一个小后端』『type:e』『from:原创』『from_who:null』『creator:Ghost_chu』『creator_uid:311』『created_at:1492613621』『length:8』
 『id:1179』『text:我特别讨厌悲观的人，做任何事情只要出了点挫折就放弃。那是你，别自以为是把我搞得和你一样！』『type:e』『from:原创』『from_who:null』『creator:Lonely』『creator_uid:359』『created_at:1494950103』『length:44』
-『id:1180』『text:如果真的失败了，请总结自己\"为什么会失败？\"』『type:e』『from:原创』『from_who:null』『creator:Lonely』『creator_uid:359』『created_at:1495264809』『length:22』
+『id:1180』『text:如果真的失败了，请总结自己 "为什么会失败？"』『type:e』『from:原创』『from_who:null』『creator:Lonely』『creator_uid:359』『created_at:1495264809』『length:22』
 『id:1183』『text:如果你的眉眼，肯为我停留半分，又怎会不知我情比海深。』『type:e』『from:原创』『from_who:null』『creator:yc』『creator_uid:162』『created_at:1496649114』『length:26』
 『id:1185』『text:不是他，变成他。』『type:e』『from:原创』『from_who:null』『creator:公子司煊。』『creator_uid:428』『created_at:1497173785』『length:8』
 『id:1186』『text:我不分白天或黑夜，因为我觉得我的人生就像在白夜中行走。』『type:e』『from:不善』『from_who:null』『creator:不善』『creator_uid:433』『created_at:1498005680』『length:27』
@@ -287,7 +287,7 @@
 『id:4551』『text:真正珍惜时间的人不会找任何借口……可惜我不是。』『type:e』『from:原创』『from_who:null』『creator:wise_world』『creator_uid:3537』『created_at:1563839916』『length:23』
 『id:4556』『text:只要你在我们心里，你就不会死。』『type:e』『from:原创』『from_who:null』『creator:yemaster』『creator_uid:1159』『created_at:1563972621』『length:15』
 『id:4571』『text:我喜欢的姑娘，眉如青山。』『type:e』『from:Yly』『from_who:null』『creator:Yly』『creator_uid:3624』『created_at:1565336776』『length:12』
-『id:4583』『text:你不得不承认，你自以为那些跟你关系很好的人，他们都有关系比你更好的朋友，而你没有。』『type:e』『from:@抖音小助手\n』『from_who:null』『creator:hhhh』『creator_uid:1639』『created_at:1566541822』『length:41』
+『id:4583』『text:你不得不承认，你自以为那些跟你关系很好的人，他们都有关系比你更好的朋友，而你没有。』『type:e』『from:@抖音小助手』『from_who:null』『creator:hhhh』『creator_uid:1639』『created_at:1566541822』『length:41』
 『id:4586』『text:愿字起于心头，转瞬又死于心间。』『type:e』『from:原创』『from_who:null』『creator:liebing』『creator_uid:3727』『created_at:1566554787』『length:15』
 『id:4587』『text:然而世事千帆而过，路的尽头终归是温柔和月光』『type:e』『from:原创』『from_who:null』『creator:liebing』『creator_uid:3727』『created_at:1566554836』『length:21』
 『id:4589』『text:生活就像一盒巧克力，你永远不知道下一块会是什么味道。』『type:e』『from:阿飞』『from_who:null』『creator:憶中人』『creator_uid:3731』『created_at:1566564617』『length:26』
@@ -303,7 +303,7 @@
 『id:4647』『text:校服是我和她唯一穿过的情侣装，毕业照是我和她唯一的合影。』『type:e』『from:彭小呆』『from_who:null』『creator:彭小呆』『creator_uid:3110』『created_at:1569312157』『length:28』
 『id:4673』『text:往事不过五彩斑斓蜻蜓点水，你我呢喃皆随风语四散而去，人来人往只是日常。』『type:e』『from:原创』『from_who:null』『creator:amor耳朵』『creator_uid:3987』『created_at:1569491885』『length:40』
 『id:4674』『text:焦虑像毒瘾，让人想对死亡说你好……』『type:e』『from:原创』『from_who:null』『creator:amor耳朵』『creator_uid:3987』『created_at:1569491941』『length:17』
-『id:4693』『text:对过去遗忘，对现在荒唐，对未来迷茫；\r\n大部分人如此，小部分人即便如此，也没行动改变。』『type:e』『from:年轻人的颓丧』『from_who:null』『creator:萖呓儿』『creator_uid:4032』『created_at:1570453353』『length:43』
+『id:4693』『text:对过去遗忘，对现在荒唐，对未来迷茫；大部分人如此，小部分人即便如此，也没行动改变。』『type:e』『from:年轻人的颓丧』『from_who:null』『creator:萖呓儿』『creator_uid:4032』『created_at:1570453353』『length:43』
 『id:4694』『text:世界真可怕，想回到妈妈的肚子里。』『type:e』『from:年轻人的颓丧』『from_who:null』『creator:萖呓儿』『creator_uid:4032』『created_at:1570453940』『length:16』
 『id:4696』『text:忙碌时渴望悠闲，闲暇时却不知道干啥啦。』『type:e』『from:年轻人的颓废』『from_who:null』『creator:萖呓儿』『creator_uid:4032』『created_at:1570453660』『length:19』
 『id:4698』『text:一个人，一个人，一个人，不是不想交朋友，而是懒。』『type:e』『from:年轻人的颓丧』『from_who:null』『creator:萖呓儿』『creator_uid:4032』『created_at:1570453832』『length:24』
@@ -314,7 +314,7 @@
 『id:4725』『text:失败是成功之母，不失败怎么能成功？』『type:e』『from:小林』『from_who:小林』『creator:xhlyy』『creator_uid:4790』『created_at:1580695979』『length:17』
 『id:4756』『text:你知道的都是真相。只可惜那些并不是真相的全部。』『type:e』『from:原创』『from_who:pokon548』『creator:pokon548』『creator_uid:4761』『created_at:1580452921』『length:23』
 『id:4785』『text:诗和远方，不如家乡。』『type:e』『from:dreamer』『from_who:null』『creator:dreamer』『creator_uid:4116』『created_at:1571717463』『length:10』
-『id:4786』『text:人会在生活中成长，一边是成熟的模样一边是保持幼稚的模样，难免看上去会有些怪异\r\n』『type:e』『from:陌小五』『from_who:null』『creator:小五五五你』『creator_uid:4080』『created_at:1571931191』『length:40』
+『id:4786』『text:人会在生活中成长，一边是成熟的模样一边是保持幼稚的模样，难免看上去会有些怪异』『type:e』『from:陌小五』『from_who:null』『creator:小五五五你』『creator_uid:4080』『created_at:1571931191』『length:40』
 『id:4791』『text:愿你走过一场青春，还留有三分纯真。』『type:e』『from:网络』『from_who:null』『creator:冷兮』『creator_uid:4121』『created_at:1571791456』『length:17』
 『id:4806』『text:我也不知道你哪里好，但是别人就是替代不了。』『type:e』『from:原创』『from_who:null』『creator:Kilig』『creator_uid:4140』『created_at:1572139360』『length:21』
 『id:4812』『text:生活就是一个游乐场，它会让你开心，也会让你焦虑，也会让你悲痛...』『type:e』『from:ming5234』『from_who:null』『creator:Ming5234』『creator_uid:4151』『created_at:1572150685』『length:33』

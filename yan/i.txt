@@ -5,7 +5,7 @@
 『id:4688』『text:两情若是久长时，又岂在朝朝暮暮？』『type:i』『from:鹊桥仙•纤云弄巧』『from_who:秦观』『creator:smallxu』『creator_uid:2639』『created_at:1569327478』『length:16』
 『id:4689』『text:嗟叹红颜泪、英雄殁，人世苦多。山河永寂、怎堪欢颜。』『type:i』『from:南唐旧梦：山河永寂』『from_who:一寒呵』『creator:smallxu』『creator_uid:2639』『created_at:1569327779』『length:25』
 『id:4690』『text:茅檐低小，溪上青青草。醉里吴音相媚好，白发谁家翁媪？』『type:i』『from:清平乐•村居』『from_who:辛弃疾』『creator:smallxu』『creator_uid:2639』『created_at:1569327991』『length:26』
-『id:4699』『text:瞿塘嘈嘈十二滩，此中道路古来难。长恨人心不如水，等闲平地起波澜。\r\n』『type:i』『from:竹枝其七』『from_who:刘禹锡』『creator:smallxu』『creator_uid:2639』『created_at:1569328193』『length:34』
+『id:4699』『text:瞿塘嘈嘈十二滩，此中道路古来难。长恨人心不如水，等闲平地起波澜。』『type:i』『from:竹枝其七』『from_who:刘禹锡』『creator:smallxu』『creator_uid:2639』『created_at:1569328193』『length:34』
 『id:4895』『text:醉后不知天在水，满船清梦压星河。』『type:i』『from:题龙阳县青草湖』『from_who:唐温如』『creator:鳯凰栖梧』『creator_uid:4071』『created_at:1571142485』『length:16』
 『id:4896』『text:金风玉露一相逢，便胜却、人间无数。』『type:i』『from:鹊桥仙•纤云弄巧』『from_who:秦观』『creator:鳯凰栖梧』『creator_uid:4071』『created_at:1571142617』『length:17』
 『id:4908』『text:人生得意须尽欢，莫让金樽空对月。』『type:i』『from:将进酒』『from_who:李白』『creator:夕之树』『creator_uid:4248』『created_at:1573330996』『length:16』
@@ -678,3 +678,4 @@
 『id:8810』『text:人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。』『type:i』『from:木兰花•拟古决绝词柬友』『from_who:纳兰性德』『creator:风间琉璃』『creator_uid:11970』『created_at:1649581813』『length:32』
 『id:8837』『text:落叶别树，飘零随风。客无所托，悲与此同。』『type:i』『from:独漉篇』『from_who:李白』『creator:染屿』『creator_uid:11938』『created_at:1649293813』『length:20』
 『id:8891』『text:歌未竟，东方白。』『type:i』『from:贺新郎•读史』『from_who:毛泽东』『creator:imtgs』『creator_uid:11597』『created_at:1664868668』『length:8』
+『id:8923』『text:晚风吹人醒，万事藏于心。』『type:i』『from:秋兴八首』『from_who:杜甫』『creator:朝尘』『creator_uid:10001』『created_at:1688956270』『length:12』

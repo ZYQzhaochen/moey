@@ -19,7 +19,7 @@ body.active{
 }
 .header{position: fixed;left: 0;right: 0;text-align: center;height: 44px;line-height: 44px;z-index: 1;border-bottom: 0px solid #FF69B4;top:0;}
 .footer{position: fixed;left: 0;right: 0;text-align: center;height: 44px;line-height: 22px;z-index: 1;border-top: 1px solid #FF69B4;bottom: 0;}
-.header .btn-slide-bar{width: 44px;height: 44px;float: left;cursor: pointer;line-height: 2.8;}
+.header .btn-slide-bar{width: 44px;height: 44px;float: left;cursor: pointer;line-height: 2.8;cursor:url('../../images/pointer.cur'),pointer;}
 .header .btn-slide-bar::before{content: "";width: 20px;height: 2px;background-color: #999;display: inline-block;box-shadow: 0 7px 0 #999, 0 -7px 0 #999;}
 .wraper-page{position: absolute;top:44px;right: 0;bottom: 44px;left: 0;overflow: hidden;}
 .slide-bar{position: absolute;top: -1px;bottom: -1px;background-color: #333;width: 150px;left: 0;z-index: 2;

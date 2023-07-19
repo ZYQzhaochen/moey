@@ -323,7 +323,7 @@
 『id:5056』『text:请成为永远疯狂，永远浪漫，永远清澈的存在。』『type:f』『from:网络』『from_who:null』『creator:信徒』『creator_uid:4679』『created_at:1579420638』『length:23』
 『id:5060』『text:对自己的爱好保持热情，不要太功利！』『type:f』『from:网络』『from_who:我叫何同学』『creator:小忧忧』『creator_uid:4701』『created_at:1579631729』『length:17』
 『id:5062』『text:能轻易离开的人确实谈不上遗憾』『type:f』『from:网络』『from_who:null』『creator:童年往事』『creator_uid:4648』『created_at:1578991952』『length:14』
-『id:5089』『text:\r\n沾酒不醉那是喝的少，见色不迷那是摸不着，淡泊名利那是实在没招』『type:f』『from:来自网络』『from_who:郭德纲』『creator:深蓝色的裤头』『creator_uid:5026』『created_at:1582437746』『length:32』
+『id:5089』『text:沾酒不醉那是喝的少，见色不迷那是摸不着，淡泊名利那是实在没招』『type:f』『from:来自网络』『from_who:郭德纲』『creator:深蓝色的裤头』『creator_uid:5026』『created_at:1582437746』『length:32』
 『id:5106』『text:后来躺进你黑名单里的那个人最开始也是踏着七色云彩照亮过你整个世界的人。』『type:f』『from:不必』『from_who:墨白』『creator:墨客熊』『creator_uid:4413』『created_at:1582256157』『length:35』
 『id:5113』『text:生气归生气，又不是不爱你……』『type:f』『from:网络』『from_who:null』『creator:西边的little star』『creator_uid:5038』『created_at:1582501768』『length:14』
 『id:5115』『text:我已经完全爱上沃玛(Warma)了！』『type:f』『from:来自网络』『from_who:null』『creator:坐凳人』『creator_uid:4832』『created_at:1581819944』『length:18』
@@ -658,3 +658,5 @@
 『id:8909』『text:一言既出，驷马难追，但两分钟内可以撤回。』『type:f』『from:网络』『from_who:null』『creator:朝尘』『creator_uid:10001』『created_at:1688386440』『length:20』
 『id:8910』『text:你不努力就会被社会淘汰，但只要你努力，过几年才会被社会淘汰。』『type:f』『from:网络』『from_who:null』『creator:朝尘』『creator_uid:10001』『created_at:1688386483』『length:30』
 『id:8911』『text:失败乃成功之母，没人会一直失败，只是多感受了一点母爱。』『type:f』『from:网络』『from_who:null』『creator:朝尘』『creator_uid:10001』『created_at:1688386537』『length:27』
+『id:8921』『text:理科是生活，文科是生命！』『type:f』『from:网络』『from_who:佚名』『creator:朝尘』『creator_uid:10001』『created_at:1688914085』『length:12』
+『id:8922』『text:理工科拯救世界，文科拯救自己』『type:f』『from:Bilibili』『from_who:应年啊啊啊』『creator:朝尘』『creator_uid:10001』『created_at:1688914164』『length:14』

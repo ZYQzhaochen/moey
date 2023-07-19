@@ -326,7 +326,7 @@
 『id:4561』『text:王来承认，王来允许，王来背负这个世界！』『type:d』『from:Fate/Zero』『from_who:null』『creator:你家炸了』『creator_uid:3557』『created_at:1564187804』『length:19』
 『id:4565』『text:为遇一人而入红尘，人去我亦去，此生不留尘』『type:d』『from:魔道祖师』『from_who:null』『creator:牙人圭uu』『creator_uid:3596』『created_at:1564830660』『length:20』
 『id:4577』『text:春复一春，枝头黄莺飞。秋复一秋，城头大雁归。』『type:d』『from:雪中悍刀行』『from_who:null』『creator:墨逸』『creator_uid:3656』『created_at:1565766941』『length:22』
-『id:4578』『text:\"痴\"这个字，真有趣，明是知道是病，依然痴心不改』『type:d』『from:豆瓣红楼梦点评:红发』『from_who:null』『creator:Mnizjc』『creator_uid:3674』『created_at:1566324479』『length:24』
+『id:4578』『text:"痴"这个字，真有趣，明是知道是病，依然痴心不改』『type:d』『from:豆瓣红楼梦点评:红发』『from_who:null』『creator:Mnizjc』『creator_uid:3674』『created_at:1566324479』『length:24』
 『id:4596』『text:苦其心志，饿其体肤，空乏其身，行拂乱其所为。』『type:d』『from:孟子』『from_who:null』『creator:Charls_Yiyan』『creator_uid:3788』『created_at:1567043608』『length:22』
 『id:4602』『text:追求得到之日即其终止之日，寻觅的过程亦即失去的过程。』『type:d』『from:国境以南，太阳以西』『from_who:null』『creator:unknowncloud』『creator_uid:2196』『created_at:1567149443』『length:26』
 『id:4608』『text:今天的我们伤痕累累，但比起昨日，我们应该多少有所成长』『type:d』『from:My days 永远的七日之都』『from_who:null』『creator:Amadeus』『creator_uid:2230』『created_at:1567584466』『length:26』
@@ -362,7 +362,7 @@
 『id:4728』『text:我不怕被人否定，我从小到大都没怎么被肯定过，肯定自己这种事儿，还得听自己的，我说我好，我就是好。』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580564338』『length:48』
 『id:4729』『text:每个人都有自己的故事，或悲或喜或无奈，不接触深了，你永远都不知道这一个个经过的人心心里装着的事，亮着灯的一扇扇窗里有没有在叹息。』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580564308』『length:64』
 『id:4730』『text:他放弃的不是我，也不是感情，他放弃的是他自己，人这一辈子，可能会放弃很多东西，很多人。』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580564269』『length:44』
-『id:4731』『text:没有谁的生活会一直完美，但无论什么时候，都要看着前方，满怀希望就会所向披靡。\r\n』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580563809』『length:40』
+『id:4731』『text:没有谁的生活会一直完美，但无论什么时候，都要看着前方，满怀希望就会所向披靡。』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580563809』『length:40』
 『id:4732』『text:别让我跑了，别我一说算了，你就来去自如走了，你多缠一会，行吗？万一我后悔了，回头你不在那儿了怎么办？』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580563768』『length:50』
 『id:4733』『text:有些意外是意料之中，有些意外是意料之外，而你，就是我意料之外的意外。』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580563712』『length:34』
 『id:4734』『text:你知道吗，有些人，会以各种你情愿或者不情愿的方式，留在你的记忆里，比如我。』『type:d』『from:撒野』『from_who:巫哲』『creator:卑微网友.』『creator_uid:4776』『created_at:1580563636』『length:37』
@@ -386,7 +386,7 @@
 『id:4752』『text:简童，我把肾给你，你把心给我吧。』『type:d』『from:蚀骨危情』『from_who:沈谨修』『creator:凿枘』『creator_uid:4777』『created_at:1580555339』『length:16』
 『id:4753』『text:世界灿烂盛大，欢迎回家。』『type:d』『from:全球高考』『from_who:木苏里』『creator:卑微网友.』『creator_uid:4776』『created_at:1580555079』『length:12』
 『id:4754』『text:这里的一切都有始有终，却能容纳所有的不期而遇和久别重逢。』『type:d』『from:全球高考』『from_who:木苏里』『creator:卑微网友.』『creator_uid:4776』『created_at:1580554964』『length:28』
-『id:4755』『text:深处暖春，才会怕冷。\r\n』『type:d』『from:全球高考』『from_who:木苏里』『creator:卑微网友.』『creator_uid:4776』『created_at:1580552193』『length:13』
+『id:4755』『text:深处暖春，才会怕冷。』『type:d』『from:全球高考』『from_who:木苏里』『creator:卑微网友.』『creator_uid:4776』『created_at:1580552193』『length:13』
 『id:4760』『text:我把人生看成是无常的，把人的无可奈何、与生俱来的轻薄看成是虚无的。』『type:d』『from:心』『from_who:null』『creator:Ali』『creator_uid:3642』『created_at:1580370830』『length:33』
 『id:4761』『text:现在我们也都还各自活着，我想。』『type:d』『from:斯普特尼克恋人』『from_who:null』『creator:Ali』『creator_uid:3642』『created_at:1580370829』『length:15』
 『id:4762』『text:当两颗卫星的轨道偶尔交叉时，我们便这样相会了。』『type:d』『from:斯普特尼克恋人』『from_who:null』『creator:Ali』『creator_uid:3642』『created_at:1580370829』『length:23』
@@ -433,7 +433,7 @@
 『id:4843』『text:在月色与雪色之间，你是第三种绝色』『type:d』『from:余光中』『from_who:null』『creator:亘古者•道一』『creator_uid:4207』『created_at:1572857980』『length:16』
 『id:4844』『text:这是在是我所知物理学中最富诗意的东西：你的一切都是星辰。』『type:d』『from:劳伦斯•M•克劳斯』『from_who:null』『creator:亘古者•道一』『creator_uid:4207』『created_at:1572858875』『length:28』
 『id:4845』『text:你身体里的每一个原子都来自一颗爆炸了的恒星，形成你左手的原子可能与右手的来自不同的恒星。这是在我所知物理学中最富诗意的东西：你的一切都是星辰』『type:d』『from:劳伦斯•M•克劳斯』『from_who:null』『creator:亘古者•道一』『creator_uid:4207』『created_at:1572860855』『length:70』
-『id:4854』『text:以为是初见，其实是重逢。\r\n』『type:d』『from:全球高考』『from_who:木苏里』『creator:卑微网友.』『creator_uid:4776』『created_at:1580554931』『length:14』
+『id:4854』『text:以为是初见，其实是重逢。』『type:d』『from:全球高考』『from_who:木苏里』『creator:卑微网友.』『creator_uid:4776』『created_at:1580554931』『length:14』
 『id:4855』『text:一草一千秋，一花一世界。』『type:d』『from:目送』『from_who:龙应台』『creator:Ali』『creator_uid:3642』『created_at:1580370818』『length:12』
 『id:4856』『text:我站在路口，哈出的气可以把那些六角形的雪融化。』『type:d』『from:嗨，STORM GLASS』『from_who:null』『creator:Ali』『creator_uid:3642』『created_at:1580370817』『length:23』
 『id:4863』『text:每个人都有属于自己的一片森林，也许我们从来不曾去过，但它一直在那里，总会在那里。迷失的人迷失了，相逢的人会再相逢。即使是你最心爱的人，心中都会有一片你无法到达的森林。』『type:d』『from:挪威的森林』『from_who:null』『creator:南瓜童鞋』『creator_uid:4251』『created_at:1573376571』『length:83』
@@ -443,7 +443,7 @@
 『id:4868』『text:如果我们最终要离别,请让我此刻沉睡在你的海洋,三万里长空碧蓝如洗,这一刻你的天地便是我的全部』『type:d』『from:扶摇皇后』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581150129』『length:46』
 『id:4869』『text:看尽三十三宫阙，最高不过离恨天。数遍四百四病难，最苦不过长牵念。』『type:d』『from:扶摇皇后』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581150091』『length:34』
 『id:4870』『text:如今我终于明白，我渡得过万里狂风，渡得过千条性命，渡得过诗酒年华，却渡不过，你不顾而去的目光。』『type:d』『from:扶摇皇后』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581150036』『length:47』
-『id:4872』『text:逐鹿场，你和我，都容不得心软。你若不肯横刀立斩，那便我先绝情出手，等你以命相博。\r\n』『type:d』『from:凰权』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581149124』『length:42』
+『id:4872』『text:逐鹿场，你和我，都容不得心软。你若不肯横刀立斩，那便我先绝情出手，等你以命相博。』『type:d』『from:凰权』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581149124』『length:42』
 『id:4873』『text:谁也不再拥有温暖的温度，来焐热那一片彻骨的寒』『type:d』『from:凰权』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581149017』『length:22』
 『id:4875』『text:我的心，永在它该在的位置，或有一日翻江倒海，能换得它倾倒翻覆。』『type:d』『from:凰权』『from_who:凤知微』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581148720』『length:31』
 『id:4876』『text:这一番乱哄哄你争我杀，到头来换了什么？不过是半樽薄酒，一身落拓，数曲残琴，满鬓风霜。』『type:d』『from:凰权』『from_who:天下归元』『creator:湮灭_消滅する』『creator_uid:4839』『created_at:1581148590』『length:42』
@@ -761,7 +761,7 @@
 『id:6505』『text:仰天大笑出门去，我辈岂是蓬蒿人。』『type:d』『from:南陵别儿童入京』『from_who:李白』『creator:Chukaland』『creator_uid:4959』『created_at:1598328873』『length:16』
 『id:6507』『text:风乍起。合当奋意向人生。』『type:d』『from:起风了』『from_who:堀辰雄』『creator:losting』『creator_uid:4867』『created_at:1597944502』『length:12』
 『id:6509』『text:有人住高楼，有人在深沟；有人光万丈，有人一身锈；世人万千种，浮云莫去求；斯人若彩虹，遇上方知有。』『type:d』『from:怦然心动』『from_who:文德琳・范・德拉安南』『creator:会是你』『creator_uid:7001』『created_at:1597892096』『length:48』
-『id:6515』『text:别问我的心里有没有你，我余光中都是你。』『type:d』『from:乡愁』『from_who:余光中』『creator:然々\" ʀ.ǫᴏᴍɪ』『creator_uid:7027』『created_at:1598154495』『length:19』
+『id:6515』『text:别问我的心里有没有你，我余光中都是你。』『type:d』『from:乡愁』『from_who:余光中』『creator:然々ʀ.ǫᴏᴍɪ』『creator_uid:7027』『created_at:1598154495』『length:19』
 『id:6517』『text:见过银河，只想要你这颗星。』『type:d』『from:我已见过银河，却仍只爱你这一颗星』『from_who:徐琳媛』『creator:辣椒の酱』『creator_uid:4270』『created_at:1598580130』『length:13』
 『id:6518』『text:被污浊了的悲伤中，今日细雪，悬而欲降。』『type:d』『from:被污浊了的悲伤』『from_who:中原中也』『creator:小甜酿』『creator_uid:7062』『created_at:1598511488』『length:19』
 『id:6519』『text:在各种孤独之间，人最怕精神上的孤独。』『type:d』『from:人间喜剧』『from_who:巴尔扎克』『creator:Miko』『creator_uid:5305』『created_at:1599273613』『length:18』
@@ -790,7 +790,7 @@
 『id:6613』『text:这个世界没有什么好畏惧的，反正我们只来一次。』『type:d』『from:=』『from_who:朱德庸』『creator:Seddy』『creator_uid:7542』『created_at:1603552728』『length:22』
 『id:6617』『text:宇宙以其不息的欲望将一个歌舞炼为永恒。这欲望有怎样一个人间的姓名，大可忽略不计。』『type:d』『from:我与地坛』『from_who:史铁生』『creator:YulinZYQ』『creator_uid:7609』『created_at:1604126760』『length:40』
 『id:6621』『text:若我与你重逢，事隔经年。我将何以贺你？以眼泪，以沉默。』『type:d』『from:春逝』『from_who:拜伦』『creator:莳昇』『creator_uid:5608』『created_at:1604133839』『length:27』
-『id:6623』『text:绘梨衣：\"我们都是小怪兽，有一天会被正义的奥特曼杀死。\"』『type:d』『from:龙族』『from_who:null』『creator:寸惑』『creator_uid:7579』『created_at:1604286132』『length:28』
+『id:6623』『text:绘梨衣："我们都是小怪兽，有一天会被正义的奥特曼杀死。"』『type:d』『from:龙族』『from_who:null』『creator:寸惑』『creator_uid:7579』『created_at:1604286132』『length:28』
 『id:6624』『text:我急切地盼望着可以经历一场放纵的快乐，纵使巨大的悲哀将接踵而至，我也在所不惜。』『type:d』『from:人间失格』『from_who:null』『creator:Yousazoe』『creator_uid:7945』『created_at:1607219776』『length:39』
 『id:6625』『text:有人认为爱是性，是婚姻，是清晨六点的吻，是一堆孩子，也许真是这样的，莱斯特小姐。但你知道我怎么想吗，我觉得爱是想触碰又收回手。』『type:d』『from:破碎故事之心』『from_who:null』『creator:Yousazoe』『creator_uid:7945』『created_at:1607266469』『length:63』
 『id:6627』『text:我始终认为一个人可以很天真简单的活下去，必是身边无数人用更大的代价守护而来的。』『type:d』『from:小王子』『from_who:安东尼•德•圣-埃克苏佩里』『creator:Yousazoe』『creator_uid:7945』『created_at:1607266525』『length:39』
@@ -1371,3 +1371,5 @@
 『id:8904』『text:每朵云都下落不明，每盏月亮都不知所踪。』『type:d』『from:暗恋』『from_who:八月长安』『creator:朝尘』『creator_uid:10001』『created_at:1688385842』『length:19』
 『id:8908』『text:如果你向神求助，说明你相信神的力量；如果神没有帮助你，说明神相信你的力量。』『type:d』『from:力量』『from_who:娜奥米·阿尔德曼』『creator:朝尘』『creator_uid:10001』『created_at:1688386350』『length:37』
 『id:8916』『text:喜欢一个人啊，就好比得了不在医保范围内的精神疾病。』『type:d』『from:第一人称单数』『from_who:村上春树』『creator:朝尘』『creator_uid:10001』『created_at:1688391669』『length:25』
+『id:8919』『text:每览昔人兴感之由，若合一契，未尝不临文嗟悼』『type:d』『from:兰亭集序』『from_who:王羲之』『creator:朝尘』『creator_uid:10001』『created_at:1688913710』『length:21』
+『id:8924』『text:等风来，不如追风去。』『type:d』『from:一禅小和尚』『from_who:王阳明』『creator:朝尘』『creator_uid:10001』『created_at:1688956362』『length:10』

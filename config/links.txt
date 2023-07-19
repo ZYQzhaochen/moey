@@ -1,2 +1,7 @@
-//此处设置友链
-『站点名：举个栗子』『链接：https://www.mwm.moe』『简介：热衷于花里胡哨的』『头像：https://tc.mwm.moe/favicon.ico』
+//此处为友链设置文件，您可以访问/admin/lp.php进行添加
+『站点名：举个栗子』『链接：https://www.mwm.moe/』『简介：热衷于花里胡哨的』『头像：https://tc.mwm.moe/favicon.ico』
+『站点名：酷酷哒の窝』『链接：https://kukuda.cn/』『简介：生命不息，折腾不止』『头像：https://q1.qlogo.cn/g?b=qq&nk=71108363&s=640』
+『站点名：丫丫博客』『链接：https://blog.yaqwq.top/』『简介：丫丫技术交流与教程博客论坛』『头像：https://blog.yaqwq.top/wp-content/uploads/2023/06/png.png』
+『站点名：wfh132博客』『链接：https://wfh132.top/』『简介：樱，你幸福吗？—是的。—凛与微笑着的樱』『头像：https://pic.imgdb.cn/item/62eb79e216f2c2beb1707ce6.png』
+『站点名：Kexig导航』『链接：https://cn.kexig.cn/』『简介：Kexig导航，简洁高效无广告的上网导航，沉淀最具价值链接，简约而不简单。』『头像：https://kexig.cn/code/logo.png』
+『站点名：Brains - 灵感乌托邦』『链接：https://www.fuuuy.cn/』『简介：让灵感成真，让想法实现！』『头像：https://www.fuuuy.cn/usr/uploads/image/favicon.ico』

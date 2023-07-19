@@ -1,3 +1,20 @@
+::selection {
+background-color:black;
+color:white;
+}
+::-moz-selection {
+background-color:black;
+color:white;
+}
+body{
+cursor:url('../../images/default.cur'),default;
+}
+p{
+cursor:url('../../images/text.cur'),text;
+}
+a{
+cursor:url('../../images/pointer.cur'),pointer;
+}
 @font-face{
 font-family:'kat';
 src:url('../font/kat.ttf');
@@ -6,18 +23,53 @@ src:url('../font/kat.ttf');
 font-family:'sq';
 src: url('../font/sq.ttf');
 }
-
+@font-face{
+font-family:'dk';
+src: url('../font/dk.woff2');
+}
 .ttf-kat{
 font-family:kat;
 }
 .ttf-sq{
 font-family:sq;
 }
-
+.ttf-dk{
+font-family:dk;
+}
 .limit{
 display:block;
 overflow:hidden;
 word-break:keep-all;
 white-space:nowrap;
 text-overflow:ellipsis;
+}
+#rin-bg{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -2;
+position: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 50% 50%;
+background-color: white;
+background-image: url('../../wallpaper');
+}
+@media all and (orientation : portrait){
+#rin-bg{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -2;
+position: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 50% 50%;
+background-color: white;
+background-image: url('../../wallpaper/?form=vertical');
+}
 }
