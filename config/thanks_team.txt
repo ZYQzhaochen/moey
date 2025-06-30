@@ -1,4 +1,0 @@
-//此处设置鸣谢名单-团体
-『名字：次元小镇』『链接：https://dimtown.com/』『简介：本站大量二次元壁纸资源来源』『头像：https://pic.imgdb.cn/item/64a52fdf1ddac507cc698c06.png』
-『名字：聚合图床』『链接：https://www.superbed.cn/』『简介：为本站提供图像储存服务』『头像：https://www.superbed.cn/favicon.ico』
-『名字：一言hitokoto』『链接：https://hitokoto.cn/』『简介：本站灵感来源/一言祖师爷』『头像：https://developer.hitokoto.cn/logo.png』
