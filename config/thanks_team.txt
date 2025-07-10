@@ -1,2 +1,0 @@
-{name:聚合图床}{link:https://www.superbed.cn/}{about:为本站提供图像储存服务}{logo:https://www.superbed.cn/favicon.ico}
-{name:一言hitokoto}{link:https://hitokoto.cn/}{about:本站灵感来源/一言祖师爷}{logo:https://developer.hitokoto.cn/logo.png}
