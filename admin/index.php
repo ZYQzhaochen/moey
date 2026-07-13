@@ -104,6 +104,7 @@ foreach (['level', 'vertical'] as $orientation) {
             <a href="yan_manage.php">语句管理</a>
             <a href="wp_manage.php">图片管理</a>
             <a href="links_manage.php">友链管理</a>
+            <a href="msg_manage.php">留言管理</a>
 
             <div class="section-title">系统管理</div>
             <a href="ban.php">IP 封禁管理</a>
