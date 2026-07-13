@@ -1,0 +1,565 @@
+{id:250}{text:我裤子都脱了你就给我看这个！！！}{type:j}{from:2ch}{from_who:null}{creator:占星术杀人魔法}{created_at:1468605920}{length:16}
+{id:463}{text:臣妾做不到啊~}{type:j}{from:甄嬛传}{from_who:null}{creator:mlmtmfz}{created_at:1468950837}{length:7}
+{id:464}{text:我爱上的人，称我为怪叔叔}{type:j}{from:其他}{from_who:null}{creator:1263}{created_at:1468950837}{length:12}
+{id:465}{text:要么忙着生存要么赶着去死，人总要做点什么。}{type:j}{from:肖申克的救赎}{from_who:null}{creator:占星术杀人魔法}{created_at:1468950838}{length:21}
+{id:466}{text:不管怎么样，未来都是可以改变的。}{type:j}{from:雏菊}{from_who:null}{creator:xi4oh4o}{created_at:1468950838}{length:16}
+{id:467}{text:你需要找出面对明天的力量。}{type:j}{from:The Battle of Chernobyl}{from_who:null}{creator:xi4oh4o}{created_at:1468950838}{length:13}
+{id:468}{text:Yesterday is a history, tomorrow is a mystery, but today is a gift.}{type:j}{from:功夫熊猫}{from_who:null}{creator:efreet}{created_at:1468950839}{length:67}
+{id:469}{text:握不住的沙，不如扬了它。}{type:j}{from:其他}{from_who:null}{creator:枫丶牙}{created_at:1468950839}{length:12}
+{id:470}{text:文能提笔控萝莉，武能床上定人妻。进可欺身压正太，退能提臀迎众基。}{type:j}{from:其他}{from_who:null}{creator:Wesion}{created_at:1468950840}{length:32}
+{id:471}{text:慕君之心，至死方休。}{type:j}{from:孟子}{from_who:null}{creator:wwwwodddd}{created_at:1468950840}{length:10}
+{id:472}{text:我们一路奋战，不是为了改变世界，而是为了不让世界改变我们。}{type:j}{from:熔炉}{from_who:null}{creator:928884975}{created_at:1468950841}{length:29}
+{id:473}{text:面对无知的嘲笑，我只能为他们默哀。}{type:j}{from:其他}{from_who:null}{creator:星之彼岸}{created_at:1468950841}{length:17}
+{id:474}{text:不要因为结束而哭泣，微笑吧，为你的曾经拥有。}{type:j}{from:其他}{from_who:null}{creator:han}{created_at:1468950841}{length:22}
+{id:475}{text:既然忘不掉，就把它留在心中，让时间去冲淡它。}{type:j}{from:其他}{from_who:null}{creator:chen970213}{created_at:1468950842}{length:22}
+{id:476}{text:君生我未生，我生君已老。君恨我生迟，我恨君生早。}{type:j}{from:全唐诗续拾}{from_who:null}{creator:Sai}{created_at:1468950842}{length:25}
+{id:477}{text:我从小就害怕虫子}{type:j}{from:小小闲}{from_who:null}{creator:firo}{created_at:1468950842}{length:8}
+{id:478}{text:缘起，在人群中，我看见你。缘灭，我看见你，在人群中。}{type:j}{from:其他}{from_who:null}{creator:泣幽寂}{created_at:1468950845}{length:26}
+{id:479}{text:透过孩子的眼神，让我相信这个世界上还有着纯真。}{type:j}{from:宫崎骏}{from_who:null}{creator:anythink}{created_at:1468950861}{length:23}
+{id:480}{text:Hello World!}{type:j}{from:其他}{from_who:null}{creator:Sai}{created_at:1468950862}{length:12}
+{id:487}{text:古之立大事者，不惟有超世之才，亦必有坚忍不拔之志。}{type:j}{from:晁错论}{from_who:null}{creator:freejishu}{created_at:1471865209}{length:25}
+{id:489}{text:我曾经失落失望失掉所有方向，直到看见平凡才是唯一的答案。}{type:j}{from:平凡之路}{from_who:null}{creator:freejishu}{created_at:1471870474}{length:28}
+{id:492}{text:学而不思则罔，思而不学则殆。}{type:j}{from:论语}{from_who:null}{creator:小强}{created_at:1472435289}{length:14}
+{id:493}{text:岁寒，然后知松柏之后凋也。}{type:j}{from:论语}{from_who:null}{creator:小强}{created_at:1472435281}{length:13}
+{id:494}{text:君子坦荡荡，小人长戚戚。}{type:j}{from:论语}{from_who:null}{creator:小强}{created_at:1472435271}{length:12}
+{id:495}{text:工欲善其事，必先利其器。}{type:j}{from:论语}{from_who:null}{creator:小强}{created_at:1472435263}{length:12}
+{id:496}{text:己所不欲，勿施于人。}{type:j}{from:论语}{from_who:null}{creator:小强}{created_at:1472435255}{length:10}
+{id:497}{text:敏而好学，不耻下问。}{type:j}{from:论语}{from_who:null}{creator:小强}{created_at:1472435245}{length:10}
+{id:498}{text:合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。}{type:j}{from:老子}{from_who:null}{creator:小强}{created_at:1472435238}{length:30}
+{id:499}{text:祸兮福之所倚，福兮祸之所伏。}{type:j}{from:鵩鸟赋}{from_who:null}{creator:小强}{created_at:1472435232}{length:14}
+{id:500}{text:信言不美，美言不信。}{type:j}{from:老子}{from_who:null}{creator:小强}{created_at:1472435224}{length:10}
+{id:501}{text:知人者智，自知者明。}{type:j}{from:老子}{from_who:null}{creator:小强}{created_at:1472435215}{length:10}
+{id:502}{text:人非圣贤，孰能无过？过而能改，善莫大焉。}{type:j}{from:左传}{from_who:null}{creator:小强}{created_at:1472435207}{length:20}
+{id:503}{text:居安思危，思则有备，有备无患。}{type:j}{from:左传}{from_who:null}{creator:小强}{created_at:1472435196}{length:15}
+{id:504}{text:多行不义必自毙。}{type:j}{from:左传}{from_who:null}{creator:小强}{created_at:1472435185}{length:8}
+{id:505}{text:从善如登，从恶如崩。}{type:j}{from:国语•周语下}{from_who:null}{creator:小强}{created_at:1472435177}{length:10}
+{id:506}{text:投我以桃，报之以李。}{type:j}{from:诗经}{from_who:null}{creator:小强}{created_at:1472435151}{length:10}
+{id:507}{text:他山之石，可以攻玉。}{type:j}{from:诗经•小雅}{from_who:null}{creator:小强}{created_at:1472435143}{length:10}
+{id:508}{text:言者无罪，闻者足戒。}{type:j}{from:诗经•周南•关雎•序}{from_who:null}{creator:小强}{created_at:1472435132}{length:10}
+{id:509}{text:人而无仪，不死何为!}{type:j}{from:相鼠}{from_who:null}{creator:小强}{created_at:1472435121}{length:10}
+{id:510}{text:天作孽，犹可违，自作孽，不可活。}{type:j}{from:尚书•太甲}{from_who:null}{creator:小强}{created_at:1472435160}{length:16}
+{id:511}{text:满招损，谦受益。}{type:j}{from:尚书•大禹谟}{from_who:null}{creator:小强}{created_at:1472435170}{length:8}
+{id:667}{text:我无处不在}{type:j}{from:超体}{from_who:null}{creator:树形图设计者}{created_at:1475412278}{length:5}
+{id:668}{text:自己珍视的事物，自己珍视的人，自己最真实的希望，想要一路坚持到底，全力让此刻绽放光芒，实现吧，大家的梦想！}{type:j}{from:千反田⑨的绘马}{from_who:null}{creator:树形图设计者}{created_at:1475508758}{length:53}
+{id:669}{text:为了能再什么时候让9人配音而继续画下去是我应该做的。非常非常非常棒的final live真的谢谢了!!!}{type:j}{from:室田雄平}{from_who:null}{creator:树形图设计者}{created_at:1475508707}{length:53}
+{id:670}{text:一进，一跳！}{type:j}{from:绚濑绘里}{from_who:null}{creator:树形图设计者}{created_at:1475397902}{length:6}
+{id:671}{text:夏天！泳装！并且……欢跃而起！！}{type:j}{from:畑亚贵}{from_who:null}{creator:树形图设计者}{created_at:1475393716}{length:16}
+{id:672}{text:使会场合而为一的歌曲。大家一起飞起来吧!}{type:j}{from:南条爱乃}{from_who:null}{creator:树形图设计者}{created_at:1475397842}{length:20}
+{id:674}{text:大家所做的，最棒的 LIVE ！}{type:j}{from:SUNNY DAY SONG}{from_who:null}{creator:树形图设计者}{created_at:1475517785}{length:16}
+{id:677}{text:スキスキぷわぷわスキスキぷわぷわ！わしちゃおう!}{type:j}{from:Printemps}{from_who:null}{creator:树形图设计者}{created_at:1475607541}{length:24}
+{id:702}{text:陪着你做前端}{type:j}{from:萌芽}{from_who:null}{creator:萌芽}{created_at:1476952003}{length:6}
+{id:703}{text:无奈夜长人不寐，数声和月到帘栊。}{type:j}{from:捣练子令}{from_who:null}{creator:″如叶般凋零。}{created_at:1477218140}{length:16}
+{id:704}{text:浅情终似，行云无定，犹到梦魂中。}{type:j}{from:少年游•离多最是}{from_who:null}{creator:″如叶般凋零。}{created_at:1477218298}{length:16}
+{id:705}{text:可怜人意，薄于云水，佳会更难重。}{type:j}{from:少年游•离多最是}{from_who:null}{creator:″如叶般凋零。}{created_at:1477218402}{length:16}
+{id:716}{text:多一分心力去注意别人，就少一分心力反省自己，你懂吗？}{type:j}{from:佛教禅语}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:26}
+{id:721}{text:春风得意马蹄疾，一日看尽长安花。}{type:j}{from:登科后}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:16}
+{id:723}{text:你的胆小，就让它，见鬼去吧。}{type:j}{from:アシタハアタシノカゼガフク}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:14}
+{id:730}{text:万法缘生，皆系缘分！}{type:j}{from:佛教禅语}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:10}
+{id:737}{text:就算这全世界，都将与你为敌，我也会守护你。所以你只需要在那微笑就好}{type:j}{from:镜音リン}{from_who:悪丿召使}{creator:hitokoto}{created_at:1478787580}{length:33}
+{id:747}{text:有一个面包，走着走着肚饿了，于是就把自己吃了}{type:j}{from:冷笑话}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:22}
+{id:755}{text:如果政府不能解决问题，那它本身就成为问题!}{type:j}{from:里根}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:22}
+{id:760}{text:衣带渐宽终不悔，为伊消得人憔悴。}{type:j}{from:蝶恋花}{from_who:柳永}{creator:hitokoto}{created_at:1478787580}{length:16}
+{id:764}{text:Just give me that chance.}{type:j}{from:肖申克的救赎}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:25}
+{id:769}{text:举手长劳劳，二情同依依。}{type:j}{from:孔雀东南飞}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:12}
+{id:771}{text:世间所有的相遇，都是久别重逢。}{type:j}{from:一代宗师}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:15}
+{id:776}{text:斜晖脉脉水悠悠，肠断白频洲。}{type:j}{from:望江南}{from_who:温庭筠}{creator:hitokoto}{created_at:1478787580}{length:14}
+{id:779}{text:要么忙着生存要么赶着去死，人总要做点什么}{type:j}{from:肖申克的救赎}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:20}
+{id:782}{text:如何得与凉风约，不共尘沙一并来！}{type:j}{from:中牟道中}{from_who:陈与义}{creator:hitokoto}{created_at:1478787580}{length:16}
+{id:787}{text:说时依旧，有泪如倾}{type:j}{from:说时依旧}{from_who:三毛}{creator:hitokoto}{created_at:1478787580}{length:9}
+{id:790}{text:无论做什么，记得为自己而做，那就毫无怨言。}{type:j}{from:流金岁月}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:21}
+{id:791}{text:茕茕白兔，东走西顾。衣不如新，人不如故。}{type:j}{from:古艳歌}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:20}
+{id:796}{text:给生命以时间，而不是给时间以生命。}{type:j}{from:思想录}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:17}
+{id:801}{text:一个人有一个故事，别让你的故事留白。}{type:j}{from:Jack Daniels Whisky}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:18}
+{id:805}{text:悲伤可以自行料理;而欢乐的滋味如果要充分体会，你就必须有人分享才行。}{type:j}{from:马克•吐温}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:34}
+{id:806}{text:你的笑容怡人如晚霞般，在川流不息的时光中，神采飞扬。}{type:j}{from:时光}{from_who:许巍}{creator:hitokoto}{created_at:1478787580}{length:26}
+{id:807}{text:光明只是短暂的一瞬，黑暗才是永恒的，但正是这短暂一瞬的光芒，诞生了生命与希望。}{type:j}{from:藏地密码}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:39}
+{id:810}{text:人生的真理，只是藏在平淡无味之中。}{type:j}{from:佛教禅语}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:17}
+{id:814}{text:愿我的人民，永远，不要被那些无关紧要的差别，所迷惑。}{type:j}{from:魔兽}{from_who:萨尔}{creator:hitokoto}{created_at:1478787580}{length:26}
+{id:817}{text:不要跟过去的自己比，要期待未来的自己，珍爱现在的自己。}{type:j}{from:主君的太阳}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:27}
+{id:821}{text:积土而为山，积水而为海。}{type:j}{from:荀子•儒效}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:12}
+{id:822}{text:你看，那个人好像一只狗诶。}{type:j}{from:大话西游之大圣娶亲}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:13}
+{id:826}{text:如今这里荒草丛生没有了鲜花，好在曾今拥有你们的春秋和冬夏。}{type:j}{from:那些花儿}{from_who:朴树}{creator:hitokoto}{created_at:1478787580}{length:29}
+{id:827}{text:如果你在的时候，会不会伸手拥抱我。}{type:j}{from:星空}{from_who:五月天}{creator:hitokoto}{created_at:1478787580}{length:17}
+{id:828}{text:時をまきもどしてみるかい？}{type:j}{from:僕たちはひとつの光}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:13}
+{id:835}{text:生活越来越压抑，你变得越来越不像自己，玫瑰你在哪里，你总是喜欢抓不住的东西}{type:j}{from:玫瑰}{from_who:贰佰}{creator:hitokoto}{created_at:1478787580}{length:37}
+{id:853}{text:竟有如此美丽的结构存在}{type:j}{from:詹姆斯•杜威•沃森}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:11}
+{id:858}{text:五十年来和五百年内，中国写猴子的前三名都是我、我、我。}{type:j}{from:今何在}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:27}
+{id:864}{text:你骄傲的和别人说，嘿，我写了个能让Windows崩溃的程序，他们会面无表情地盯着你说“哥们，我装（Windows）系统的时候就免费带着了”}{type:j}{from:李纳斯}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:69}
+{id:872}{text:忌妒别人，不会给自己增加任何的好处。忌妒别人，也不可能减少别人的成就。}{type:j}{from:佛教禅语}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:35}
+{id:875}{text:Sunny day Wow! Song power!}{type:j}{from:SUNNY DAY SONG}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:26}
+{id:886}{text:牺牲基本自由来换取暂时的安全，最后既得不到安全也得不到自由!}{type:j}{from:本杰明·富兰克林}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:31}
+{id:890}{text:这世界是个好地方，值得为它奋斗。后半句我同意。}{type:j}{from:海明威}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:23}
+{id:891}{text:成熟不是心变老，是泪在打转还能微笑。}{type:j}{from:天边}{from_who:张韶涵}{creator:hitokoto}{created_at:1478787580}{length:18}
+{id:892}{text:如果我们就这样死在山里面，他们会不会说我们是殉情}{type:j}{from:星空}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:24}
+{id:895}{text:盈盈一水间，脉脉不得语。}{type:j}{from:迢迢牵牛星}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:12}
+{id:897}{text:与君初相识，犹如故人归}{type:j}{from:茶花}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:11}
+{id:899}{text:如今我对自己故乡，像来往匆匆的过客。}{type:j}{from:家}{from_who:许巍}{creator:hitokoto}{created_at:1478787580}{length:18}
+{id:900}{text:前不见古人，后不见来者。念天地之悠悠，独怆然而涕下。}{type:j}{from:登幽州台歌}{from_who:陈子昂}{creator:hitokoto}{created_at:1478787580}{length:26}
+{id:904}{text:一念愚即般若绝，一念智即般若生。}{type:j}{from:佛教禅语}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:16}
+{id:916}{text:照我思索，可理解我，照我思索，可以得人。}{type:j}{from:沈从文墓志铭}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:20}
+{id:920}{text:我知道这个世上有人在等我，尽管我不知道我在等谁。当因为这样，我每天都很快乐。}{type:j}{from:返老还童}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:38}
+{id:923}{text:我从远方赶来，恰巧你们也在。}{type:j}{from:生如夏花}{from_who:朴树}{creator:hitokoto}{created_at:1478787580}{length:14}
+{id:926}{text:街上照明光华璀璨，乙醚麻醉的冰冷，无法成眠的凌晨两点，一切事物快速地转变}{type:j}{from:炉心融解}{from_who:镜音リン}{creator:hitokoto}{created_at:1478787580}{length:36}
+{id:939}{text:坐亦禅，行亦禅，一花一世界，一叶一如来，春来花自青，秋至叶飘零，无穷般若心自在，语默动静体自然。}{type:j}{from:佛教禅语}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:48}
+{id:945}{text:如果我的付出，可以为人类的未来增加一块基石的话，大概我就是为此而生的吧}{type:j}{from:徐逸}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:35}
+{id:947}{text:我已经倾尽所有了，如果这次还不成功，我就真的一无所有了，到时候我会放弃，我不会再固执了~}{type:j}{from:海苔亿万富翁 top secret}{from_who:null}{creator:hitokoto}{created_at:1478787580}{length:48}
+{id:954}{text:天之苍苍，其正色邪？其远而无所至极邪？}{type:j}{from:逍遥游}{from_who:null}{creator:LCloud}{created_at:1479465452}{length:19}
+{id:960}{text:死亡不是失去了生命，只是走出了时间}{type:j}{from:干嚼鹿肉}{from_who:null}{creator:Hex Lee}{created_at:1478853182}{length:17}
+{id:967}{text:生活就像海洋，只有意志坚强的人，才能到达彼岸。}{type:j}{from:马克思}{from_who:null}{creator:Eric}{created_at:1480327930}{length:23}
+{id:968}{text:好目睫之利者，利在害中而不弃；好终身之利者，利在目睫而不为。}{type:j}{from:庄元臣}{from_who:null}{creator:Eric}{created_at:1480342803}{length:30}
+{id:969}{text:不稼不穑，耕怠者无获；不了不当，事辍者无功。}{type:j}{from:其他}{from_who:null}{creator:Eric}{created_at:1480342525}{length:22}
+{id:971}{text:Write the code, Change the world.}{type:j}{from:Apple}{from_who:null}{creator:Secret}{created_at:1480399697}{length:33}
+{id:972}{text:We're here to put a dent in the universe. Otherwise why else even be here?}{type:j}{from:Steve Jobs}{from_who:null}{creator:Secret}{created_at:1480399740}{length:74}
+{id:975}{text:不诱于誉，不恐于诽。}{type:j}{from:荀子}{from_who:null}{creator:Eric}{created_at:1480515167}{length:10}
+{id:1021}{text:有一天我变老了，不知道你会不会像现在这么照顾我。}{type:j}{from:我与狗狗的十个约定}{from_who:川口晴}{creator:1877035391}{created_at:1481086547}{length:24}
+{id:1053}{text:哈，所谓愿望能靠法宝就实现，也太廉价了吧？}{type:j}{from:仙剑奇侠传五}{from_who:龙幽}{creator:863885806}{created_at:1481086547}{length:21}
+{id:1056}{text:活着的时候要尽欢，死的时候才没有遗憾。}{type:j}{from:仙剑奇侠传四}{from_who:null}{creator:863885806}{created_at:1481086547}{length:19}
+{id:1072}{text:大丈夫立世无所畏惧。}{type:j}{from:仙剑奇侠传四}{from_who:云天青}{creator:863885806}{created_at:1481086547}{length:10}
+{id:1074}{text:苟利国家生死以，岂因祸福避趋之}{type:j}{from:赴戍登程口占示家人}{from_who:林则徐}{creator:942903628}{created_at:1481086547}{length:15}
+{id:1075}{text:有时候解释是不必要的，敌人不信你的解释，朋友无需你的解释}{type:j}{from:其他}{from_who:李敖}{creator:863885806}{created_at:1481086547}{length:28}
+{id:1080}{text:十年饮冰，难凉热血。}{type:j}{from:饮冰室文集}{from_who:梁启超}{creator:Hex Lee}{created_at:1481252569}{length:10}
+{id:1081}{text:眼睛一闭一睁，这一天就过去了；这眼睛一闭不睁，这辈子就过去了。}{type:j}{from:小沈阳}{from_who:null}{creator:Eric}{created_at:1481443617}{length:31}
+{id:1083}{text:自由不是你想干什么就干什么，而是你想不干什么就不干什么。}{type:j}{from:康德}{from_who:null}{creator:Eric}{created_at:1481961053}{length:28}
+{id:1084}{text:人不是靠做出来的，而是靠活出来的。}{type:j}{from:士兵突击}{from_who:null}{creator:哆啦尼可夫}{created_at:1481965856}{length:17}
+{id:1085}{text:不幸才是生活的常态。}{type:j}{from:法医秦明}{from_who:null}{creator:Secret}{created_at:1482047360}{length:10}
+{id:1101}{text:一个人对自己动机的诚实程度，决定着一个人是虚伪还是真诚。}{type:j}{from:我们与这个世界的误会}{from_who:灵山居士}{creator:863885806}{created_at:}{length:28}
+{id:1107}{text:守住一方平安，尽力而为，问心无愧就好。}{type:j}{from:网络}{from_who:null}{creator:505622287}{created_at:}{length:19}
+{id:1128}{text:湛蓝色的初一，柠檬色的海。}{type:j}{from:TARA组合}{from_who:null}{creator:初一}{created_at:1483065237}{length:13}
+{id:1134}{text:奇迹，只不过是努力的另一个名字罢了。}{type:j}{from:其他}{from_who:null}{creator:Eric}{created_at:1486034893}{length:18}
+{id:1143}{text:义人的口谈论智慧，他的舌讲说公平}{type:j}{from:圣经}{from_who:null}{creator:失われた未来を求めて}{created_at:1487085311}{length:16}
+{id:1150}{text:丁丁漏水夜何长，漫漫轻云露月光。}{type:j}{from:秋夜曲}{from_who:null}{creator:zrnlkc}{created_at:1489896568}{length:16}
+{id:1169}{text:生活不止眼前的苟且，还应该有诗和远方的田野。}{type:j}{from:生活不止眼前的苟且}{from_who:许巍}{creator:zcq}{created_at:1491639244}{length:22}
+{id:1178}{text:分别后的难过都是依赖，无法相拥的人要好好道别}{type:j}{from:至此流年各天涯}{from_who:我不李志}{creator:少年}{created_at:1494076493}{length:22}
+{id:1181}{text:明月楼高休独倚，酒入愁肠，化作相思泪。}{type:j}{from:苏幕遮}{from_who:null}{creator:KKMC}{created_at:1495198651}{length:19}
+{id:1182}{text:踏长风破万里浪}{type:j}{from:小C}{from_who:null}{creator:KKMC}{created_at:1495198575}{length:7}
+{id:1184}{text:凤兮凤兮归故乡，遨游四海求其凰}{type:j}{from:凤求凰}{from_who:null}{creator:yc}{created_at:1496649165}{length:15}
+{id:1191}{text:足吾所好，玩而老焉}{type:j}{from:欧阳修}{from_who:null}{creator:Hex Lee}{created_at:1497687720}{length:9}
+{id:1194}{text:善恶终有报，天道好轮回。不信抬头看，苍天饶过谁。}{type:j}{from:江湖夜雨十年灯}{from_who:null}{creator:不善}{created_at:1498006504}{length:24}
+{id:1197}{text:若教眼底无离恨，不信人间有白头}{type:j}{from:鹧鸪天•晚日寒鸦一片愁}{from_who:null}{creator:zivi}{created_at:1499181701}{length:15}
+{id:1198}{text:生而贫穷并无过错，死而贫穷才是遗憾。}{type:j}{from:财箴}{from_who:null}{creator:Itsusinn}{created_at:1498826776}{length:18}
+{id:1209}{text:你要做一个不动声色的大人了，不准情绪化，不准偷偷想念，不准回头看，去过自己另外的生活，你要听话，不是所有的鱼都生活在同一片海里}{type:j}{from:舞舞舞}{from_who:null}{creator:zivi}{created_at:1499181829}{length:63}
+{id:1218}{text:年轻时最大的财富，不是你的青春，不是你的美貌，也不是你有充沛的精力，而是你有犯错误的机会。}{type:j}{from:微博}{from_who:null}{creator:心随和}{created_at:1501483309}{length:45}
+{id:1234}{text:Across the Great Wall we can reach every corner in the world.}{type:j}{from:中国第一封电子邮件}{from_who:null}{creator:QIQI}{created_at:1502506373}{length:61}
+{id:1241}{text:Let the hacking begin.}{type:j}{from:the social network}{from_who:null}{creator:deroubkal}{created_at:1504779729}{length:22}
+{id:1259}{text:千里之行，始于足下。}{type:j}{from:道德经}{from_who:null}{creator:毛毛毛布斯}{created_at:1507109801}{length:10}
+{id:1260}{text:工业革命的火种燃起的那一刻，半个天空的星辰都熄灭了。}{type:j}{from:毛布斯}{from_who:null}{creator:毛毛毛布斯}{created_at:1507090687}{length:26}
+{id:1261}{text:云销雨霁，彩彻区明。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184953}{length:10}
+{id:1262}{text:落霞与孤鹜齐飞，秋水共长天一色。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184974}{length:16}
+{id:1264}{text:关山难越，谁悲失路之人？萍水相逢，尽是他乡之客。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507185043}{length:24}
+{id:1265}{text:老当益壮，宁移白首之心？穷且益坚，不坠青云之志。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507185409}{length:24}
+{id:1266}{text:腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184728}{length:24}
+{id:1267}{text:闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184931}{length:24}
+{id:1268}{text:层峦耸翠，上出重霄；飞阁流丹，下临无地。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184845}{length:20}
+{id:1269}{text:不知横跨几度银河，才终于在尽头与你相遇}{type:j}{from:前前前世}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184566}{length:19}
+{id:1270}{text:鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，即冈峦之体势。}{type:j}{from:滕王阁序}{from_who:null}{creator:毛毛毛布斯}{created_at:1507184887}{length:24}
+{id:1273}{text:该庆幸至远至疏你我还未至陌路}{type:j}{from:眉间雪}{from_who:null}{creator:無痕}{created_at:1508773100}{length:14}
+{id:1276}{text:得到了再失去，总是比从来就没有得到更伤人。}{type:j}{from:追风筝的人}{from_who:null}{creator:毛毛毛布斯}{created_at:1508659584}{length:21}
+{id:1277}{text:时间很贪婪——有时候，它会独自吞噬所有的细节。}{type:j}{from:追风筝的人}{from_who:null}{creator:毛毛毛布斯}{created_at:1508659562}{length:23}
+{id:1278}{text:为你，千千万万遍。}{type:j}{from:追风筝的人}{from_who:null}{creator:毛毛毛布斯}{created_at:1508659520}{length:9}
+{id:1289}{text:纯氧对生物有害，毫无保留的真相，只会把人的精神击溃。一比五的氧与氮，才是可供呼吸的空气。同样，呼吸着以戏言稀释的少量真实，人才能维持健全的心。}{type:j}{from:其他}{from_who:null}{creator:Mysaku}{created_at:1509445881}{length:71}
+{id:1291}{text:相逢尽道休官好，林下何曾见一人。}{type:j}{from:东林寺酬韦丹刺史}{from_who:null}{creator:LegendHeaven}{created_at:1509707593}{length:16}
+{id:1296}{text:不忘初心，努力前行}{type:j}{from:其他}{from_who:null}{creator:flyqie}{created_at:1510457164}{length:9}
+{id:1301}{text:你说一声，我也默认，我们在这月光下十指生根。}{type:j}{from:芬芳一生}{from_who:毛不易}{creator:不负}{created_at:1511872520}{length:22}
+{id:1314}{text:不知寒暑，不识香臭，不辨是非，无家国之念，无亲情之观，无喜乐，无悲欢，与朽木何异？}{type:j}{from:别听他胡说}{from_who:null}{creator:宝宝洗头爱飘柔}{created_at:1512718046}{length:41}
+{id:1332}{text:贫贱难可居，脱误有功，富贵可致，不探虎穴，安得虎子？}{type:j}{from:三国志}{from_who:null}{creator:LegendHeaven}{created_at:1513446675}{length:26}
+{id:1337}{text:你要不会唠嗑能不能别硬唠。}{type:j}{from:缝纫机乐队}{from_who:null}{creator:十七}{created_at:1514253620}{length:13}
+{id:1342}{text:故人啊，已做了他人嫁}{type:j}{from:一醉南柯}{from_who:null}{creator:玉狐}{created_at:1514702738}{length:10}
+{id:1344}{text:看春花开又落，秋风吹着那夏月走，冬雪纷纷又是一年}{type:j}{from:如花}{from_who:null}{creator:玉狐}{created_at:1514706821}{length:24}
+{id:1348}{text:此心光明，亦复何言}{type:j}{from:王阳明}{from_who:null}{creator:你猜啊}{created_at:1515119154}{length:9}
+{id:1354}{text:于是荆轲遂就车而去，终已不顾。}{type:j}{from:史记•刺客列传}{from_who:null}{creator:死木芽}{created_at:1515592586}{length:15}
+{id:1362}{text:不管是哪种结果，我都坦然接受。因为无论是哪种结果，这都是一次非凡的旅行。}{type:j}{from:地心引力}{from_who:null}{creator:Little_Qiu}{created_at:1516498266}{length:36}
+{id:1367}{text:Dream big and dare to fail. 勇敢追梦、无惧失败。}{type:j}{from:Norman Vaughan}{from_who:null}{creator:liufushihai}{created_at:1516862700}{length:37}
+{id:1379}{text:万有引力可无法对坠入爱河的人负责。}{type:j}{from:爱因斯坦}{from_who:null}{creator:Mockaven}{created_at:1519392032}{length:17}
+{id:1381}{text:人这辈子没法做太多事情，所以每一件都要做到精彩绝伦。}{type:j}{from:乔布斯}{from_who:null}{creator:nanokya}{created_at:1519635181}{length:26}
+{id:1391}{text:爱的是你，最爱的还是你。}{type:j}{from:日常}{from_who:null}{creator:christ@amaok.com}{created_at:1428035779000}{length:12}
+{id:1397}{text:螃蟹在剥我的壳，笔记本在写我。漫天的我落在枫叶上雪花上。而你在想我。}{type:j}{from:三句情诗}{from_who:null}{creator:pw0}{created_at:1460208005000}{length:34}
+{id:3585}{text:我永远在这里，涌着爱面朝沧海}{type:j}{from:第三极}{from_who:null}{creator:泷涯}{created_at:1521366906}{length:14}
+{id:3591}{text:那天她夸我很会笑，那十秒灵魂大概已卖掉。}{type:j}{from:Nice • 南先生}{from_who:null}{creator:Nice南先生}{created_at:1521812182}{length:20}
+{id:3597}{text:一辈子那么长，我才不会只喜欢你一个人。}{type:j}{from:至我们单纯的小美好}{from_who:null}{creator:alone88}{created_at:1523531645}{length:19}
+{id:3608}{text:无能为力的同情比欺负本身更伤人。}{type:j}{from:终极恶女}{from_who:null}{creator:a632079}{created_at:1523579662}{length:16}
+{id:3609}{text:菩提本无树，明镜亦非台，本来无一物，何处惹尘埃。}{type:j}{from:慧能}{from_who:null}{creator:a632079}{created_at:1523580061}{length:24}
+{id:3610}{text:身是菩提树，心如明镜台，时时勤拂拭，勿使惹尘埃。}{type:j}{from:神秀}{from_who:null}{creator:a632079}{created_at:1523580040}{length:24}
+{id:3611}{text:一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是在流浪。}{type:j}{from:三毛}{from_who:null}{creator:a632079}{created_at:1523579910}{length:40}
+{id:3612}{text:如果有来生，要做一棵树，站成永恒，没有悲欢的姿势。一半在土里安详，一半在风里飞扬，一半洒落阴凉，一半沐浴阳光，非常沉默非常骄傲，从不依靠、从不寻找。}{type:j}{from:说给自己听}{from_who:null}{creator:a632079}{created_at:1523579872}{length:74}
+{id:3628}{text:千般荒凉，以此为梦；万里蹀躞，以此为归。}{type:j}{from:文化苦旅}{from_who:null}{creator:yyy2015c01}{created_at:1525442422}{length:20}
+{id:3629}{text:愿您的每句评论，都能给大家的生活添色彩，带来共鸣，带来思索，带来快乐。}{type:j}{from:酷软资源网}{from_who:null}{creator:sverain}{created_at:1525924469}{length:35}
+{id:3638}{text:三更灯火五更鸡，正是男儿读书时。黑发不知勤学早，白首方悔读书迟。}{type:j}{from:颜真卿}{from_who:null}{creator:lohmo}{created_at:1527173307}{length:32}
+{id:3642}{text:gugugugugu}{type:j}{from:haoduor}{from_who:null}{creator:haoduor}{created_at:1527736452}{length:10}
+{id:3643}{text:纵有疾风起人生不言弃}{type:j}{from:宫崎骏}{from_who:null}{creator:woober}{created_at:1527740056}{length:10}
+{id:3644}{text:只要有人追忆，往事就不必如烟。}{type:j}{from:史景迁}{from_who:null}{creator:綾音}{created_at:1527784680}{length:15}
+{id:3645}{text:人是一个事件，它无法判断自己，是好是坏，全都交由他人评判。}{type:j}{from:荣格自传}{from_who:null}{creator:kujin}{created_at:1527901264}{length:29}
+{id:3654}{text:在这样一个世界里，生活的真实性被所谓的清晰概念完全掩盖。经验的本质被剥夺殆尽，取而代之的却只是空有的名称，而这些名称进而有取代了现实。}{type:j}{from:其他}{from_who:null}{creator:kujin}{created_at:1528212772}{length:67}
+{id:3671}{text:信息学竞赛中没有证明。}{type:j}{from:wxh010910}{from_who:null}{creator:aziint}{created_at:1528593998}{length:11}
+{id:3698}{text:知我者谓我心忧。}{type:j}{from:佚名}{from_who:佚名}{creator:wyt}{created_at:1530635694}{length:8}
+{id:3707}{text:我从没有爱过这世界，它对我也一样}{type:j}{from:拜伦诗集}{from_who:null}{creator:妖酆}{created_at:1530015246}{length:16}
+{id:3711}{text:饭可以一日不吃，水可以一日不喝，但题不可以一日不贺。}{type:j}{from:贺指导}{from_who:null}{creator:mangoyang}{created_at:1532860764}{length:26}
+{id:3714}{text:别紧张，我又不是什么好人。}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854331}{length:13}
+{id:3715}{text:最近总是失眠16个小时就会醒一次。}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854345}{length:17}
+{id:3716}{text:在哪里摔倒就在那里躺着}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854354}{length:11}
+{id:3717}{text:知道你过得不好我也就安心了。}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854384}{length:14}
+{id:3718}{text:通往成功的路，总是在施工中。}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854319}{length:14}
+{id:3719}{text:兜里不硬气，啥都不敢买。}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854271}{length:12}
+{id:3749}{text:永远相信美好的事情即将发生}{type:j}{from:小米}{from_who:null}{creator:老陈皮}{created_at:1534278086}{length:13}
+{id:3762}{text:昔日我曾苍老，如今风华正茂}{type:j}{from:鲍勃•迪伦}{from_who:null}{creator:etppt}{created_at:1534374940}{length:13}
+{id:3771}{text:气势上不能怂！}{type:j}{from:tea9}{from_who:null}{creator:tea9}{created_at:1533803645}{length:7}
+{id:3774}{text:世上无难事，只要肯放弃。}{type:j}{from:嘉豪and佳一}{from_who:null}{creator:36778038}{created_at:1532854307}{length:12}
+{id:3790}{text:时间背着我悄悄捏碎从前。}{type:j}{from:消失}{from_who:null}{creator:shikisuki}{created_at:1533353534}{length:12}
+{id:3796}{text:我对你最深沉的爱，莫过于分开以后，我将自己活成了你的样子。直到今天，再听到你的消息，为你活得越来越精彩而万分开心，虽然在离开你之后，我彻底变成了灰色。}{type:j}{from:这个杀手不太冷}{from_who:null}{creator:zhouzz}{created_at:1533106811}{length:75}
+{id:3808}{text:我认为最深沉的爱；莫过于你离开以后；我活成了你的样子。}{type:j}{from:这个杀手不太冷}{from_who:null}{creator:zhouzz}{created_at:1533106839}{length:27}
+{id:3817}{text:远远地看，它就像一根孤独的琴弦紧绷在原野上，任凭风雨和岁月的弹拨。}{type:j}{from:那条河流}{from_who:null}{creator:少年听雨歌楼上}{created_at:1534941861}{length:33}
+{id:3837}{text:但尽人事，莫问前程。}{type:j}{from:名人}{from_who:null}{creator:microtex}{created_at:1536488027}{length:10}
+{id:3860}{text:程序员最讨厌的事情是维护没有注释的代码，第二讨厌的的事情是自己写注释。}{type:j}{from:biguokang}{from_who:null}{creator:biguokang}{created_at:1532657350}{length:35}
+{id:3869}{text:戸惑い憂い怒り狂い たどり着いた祈り 君の心死なずいるなら 応答せよ早急に}{type:j}{from:miku}{from_who:null}{creator:mohei0}{created_at:1535713061}{length:37}
+{id:3930}{text:故事开始便不承认普通}{type:j}{from:君子剑伤}{from_who:null}{creator:千微浅}{created_at:1538112271}{length:10}
+{id:3933}{text:不要熄灭你的灵感及想象，不要成为你楷模的奴隶。}{type:j}{from:文森特•梵高}{from_who:null}{creator:綾音}{created_at:1538390679}{length:23}
+{id:3942}{text:该打的仗我已经打过了，该走的路已经走到了尽头，我守住了我信的道。}{type:j}{from:动物世界}{from_who:null}{creator:Encounter}{created_at:1538709772}{length:32}
+{id:3945}{text:沸乳看蟹目鱼鳞，传瓷选月魂云魄。}{type:j}{from:影梅庵忆语}{from_who:null}{creator:xinli}{created_at:1536914534}{length:16}
+{id:3947}{text:有一个夜晚我烧毁了所有的记忆，从此我的梦就透明了；有一个早晨我扔掉了所有的昨天，从此我的脚步就轻盈了。}{type:j}{from:泰戈尔}{from_who:null}{creator:flowphyl}{created_at:1538802056}{length:51}
+{id:3954}{text:满天都是星星，好像一场冻结了的大雨。}{type:j}{from:王小波}{from_who:null}{creator:綾音}{created_at:1539487708}{length:18}
+{id:3959}{text:梦与现实是不同的。所以才能够为了把梦变成现实而努力。}{type:j}{from:梦违科学世纪}{from_who:null}{creator:unknowncloud}{created_at:1539687759}{length:26}
+{id:3960}{text:奇变偶不变，符号看象限}{type:j}{from:各校数学老师}{from_who:null}{creator:unknowncloud}{created_at:1539689012}{length:11}
+{id:3965}{text:你的笑像一条恶犬，撞乱了我心弦}{type:j}{from:盗将行}{from_who:null}{creator:酷儿}{created_at:1541653181}{length:15}
+{id:3969}{text:自古美人如名将，不许人间见白头}{type:j}{from:随园诗话}{from_who:null}{creator:双语之城}{created_at:1540972035}{length:15}
+{id:3983}{text:可以看起来不伟大却要善良，要尝过时间给过的挫败才能够变得坦然。}{type:j}{from:李荣浩}{from_who:null}{creator:eaea}{created_at:1540721786}{length:31}
+{id:3991}{text:眼看他起朱楼，眼看他宴宾客，眼看他楼塌了。}{type:j}{from:桃花扇}{from_who:null}{creator:unknowncloud}{created_at:1539688046}{length:21}
+{id:3992}{text:空无一物本身，是一些无惧无畏的旅人的起点，却是我的终点。}{type:j}{from:老巴塔哥尼亚快车}{from_who:null}{creator:unknowncloud}{created_at:1539688394}{length:28}
+{id:3994}{text:只有不怕死的人才配活着。}{type:j}{from:麦克阿瑟}{from_who:null}{creator:qnickx}{created_at:1539852227}{length:12}
+{id:4030}{text:春之风，自下升上，纸鸢因之以起。夏之风，横行空中，故树杪多风声。秋之风，自上而下，木叶因之以陨。冬之风，著土而行，是以吼地而生寒。}{type:j}{from:夜航船}{from_who:null}{creator:unknowncloud}{created_at:1539687494}{length:66}
+{id:4032}{text:焉得谖草？言树之背。}{type:j}{from:伯兮-先秦}{from_who:null}{creator:燕长风}{created_at:1539561850}{length:10}
+{id:4036}{text:你的故事很长，如果能由我来收尾就好了。}{type:j}{from:乱世流年}{from_who:null}{creator:乱世流年}{created_at:1541909035}{length:19}
+{id:4043}{text:浮天水送无穷树，带雨云埋一半山。}{type:j}{from:其他}{from_who:null}{creator:流畅i}{created_at:1542561247}{length:16}
+{id:4044}{text:相信爱的人，才会和爱相遇}{type:j}{from:日食记}{from_who:null}{creator:Little_Qiu}{created_at:1542531780}{length:12}
+{id:4045}{text:牛肉面算是我的人生菜单，很高兴有一天，我终于学会了你的味道。}{type:j}{from:日食记}{from_who:null}{creator:Little_Qiu}{created_at:1542531641}{length:30}
+{id:4046}{text:我这一生都是坚定不移的唯物主义者，唯有你，我希望有来生。}{type:j}{from:周恩来}{from_who:null}{creator:hytzongxuan}{created_at:1542463485}{length:28}
+{id:4055}{text:突然觉得人生正面得不行，彻底变成大人了。}{type:j}{from:林宥嘉}{from_who:null}{creator:eaea}{created_at:1542172061}{length:20}
+{id:4065}{text:看过太多的人生指南，都快找不着北了}{type:j}{from:辛巴狗}{from_who:null}{creator:一言小和尚}{created_at:1544659867}{length:17}
+{id:4066}{text:漫天星光沿途散播，长路尽处有灯火。}{type:j}{from:最难唱的情歌}{from_who:null}{creator:正弦}{created_at:1544527066}{length:17}
+{id:4072}{text:相逢开口笑，过后不思量。}{type:j}{from:沙家浜}{from_who:null}{creator:unknowncloud}{created_at:1542850044}{length:12}
+{id:4074}{text:透过你的眼，离别也是诗}{type:j}{from:书籍}{from_who:null}{creator:aegean}{created_at:1543226431}{length:11}
+{id:4075}{text:眼见他起高楼，眼见他宴宾客，眼见他楼塌了!}{type:j}{from:桃花扇}{from_who:null}{creator:hytzongxuan}{created_at:1543234163}{length:21}
+{id:4083}{text:凡是属于幻觉的东西，过了第一座铁路桥便会消失；凡是实现不了的事物，都会在桦木十字架下被忘记。}{type:j}{from:莫斯科}{from_who:null}{creator:unknowncloud}{created_at:1539687255}{length:46}
+{id:4084}{text:是幻想吗，是空中楼阁吗；在黎明前，这场梦，蝴蝶之梦。}{type:j}{from:梦违科学世纪}{from_who:null}{creator:unknowncloud}{created_at:1539687720}{length:26}
+{id:4085}{text:未期之遇，不告而别。闻所闻而来，见所见即去。}{type:j}{from:老巴塔哥尼亚快车}{from_who:null}{creator:unknowncloud}{created_at:1539687943}{length:22}
+{id:4086}{text:他不是一个人在战斗！}{type:j}{from:黄健翔}{from_who:null}{creator:unknowncloud}{created_at:1539689640}{length:10}
+{id:4097}{text:靠水晶球谋生的人注定要吃碎在地上的玻璃。}{type:j}{from:瑞•达利欧}{from_who:null}{creator:綾音}{created_at:1538908707}{length:20}
+{id:4123}{text:好男儿胸怀像大海}{type:j}{from:曾经的你}{from_who:null}{creator:Nihility}{created_at:1542188832}{length:8}
+{id:4130}{text:霸者之作，其论博也}{type:j}{from:六韬}{from_who:null}{creator:二十一}{created_at:1542693057}{length:9}
+{id:4137}{text:即便如此我也会前进的，哪怕是这令人头昏眼花的夜}{type:j}{from:ゴーストルール}{from_who:null}{creator:茅台酒}{created_at:1543196186}{length:23}
+{id:4138}{text:从来不需要想起，永远也不会忘记}{type:j}{from:酒干倘卖无}{from_who:null}{creator:aegean}{created_at:1543226360}{length:15}
+{id:4140}{text:原谅他是上帝的事情。我的事情就是送他去见上帝}{type:j}{from:爱情公寓}{from_who:null}{creator:一言小和尚}{created_at:1543289350}{length:22}
+{id:4149}{text:The devil is in the detail. 细节决定成败。}{type:j}{from:谚语}{from_who:null}{creator:KanM0DEL}{created_at:1543799889}{length:35}
+{id:4152}{text:Young as the morning, Old as the sea.}{type:j}{from:Other}{from_who:null}{creator:nightkeeper}{created_at:1544287597}{length:37}
+{id:4162}{text:给我这个世界上最诚实的人写的六行字，我一定能从中找到足够的理由来绞死他。}{type:j}{from:黎塞留}{from_who:null}{creator:chenxuhua}{created_at:1545017593}{length:36}
+{id:4164}{text:致梦想创造游戏的你，请绝对不要让这份情感在梦里终结。}{type:j}{from:三辻富贵朗}{from_who:null}{creator:Little_Qiu}{created_at:1545055043}{length:26}
+{id:4165}{text:希望是美好的，也许是人间至善，而美好的事物永不消逝。}{type:j}{from:肖申克的救赎}{from_who:null}{creator:影探}{created_at:1545110701}{length:26}
+{id:4200}{text:日出而作，日入而息。}{type:j}{from:击壤歌}{from_who:null}{creator:不朽千秋}{created_at:1545974068}{length:10}
+{id:4201}{text:凿井而饮，耕田而食。}{type:j}{from:击壤歌}{from_who:null}{creator:不朽千秋}{created_at:1545974079}{length:10}
+{id:4202}{text:关关雎鸠，在河之洲。窈窕淑女，君子好逑。}{type:j}{from:关雎}{from_who:null}{creator:不朽千秋}{created_at:1545974143}{length:20}
+{id:4203}{text:参差荇菜，左右流之。窈窕淑女，寤寐求之。}{type:j}{from:关雎}{from_who:null}{creator:不朽千秋}{created_at:1545974151}{length:20}
+{id:4204}{text:求之不得，寤寐思服。悠哉悠哉，辗转反侧。}{type:j}{from:关雎}{from_who:null}{creator:不朽千秋}{created_at:1545974162}{length:20}
+{id:4206}{text:参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。}{type:j}{from:关雎}{from_who:null}{creator:不朽千秋}{created_at:1545974184}{length:20}
+{id:4207}{text:投我以木瓜，报之以琼琚。匪报也，永以为好也！}{type:j}{from:木瓜}{from_who:null}{creator:不朽千秋}{created_at:1545974198}{length:22}
+{id:4208}{text:桃之夭夭，灼灼其华。之子于归，宜其室家。}{type:j}{from:桃夭}{from_who:null}{creator:不朽千秋}{created_at:1545974262}{length:20}
+{id:4209}{text:桃之夭夭，其叶蓁蓁。之子于归，宜其家人。}{type:j}{from:桃夭}{from_who:null}{creator:不朽千秋}{created_at:1545974294}{length:20}
+{id:4210}{text:蒹葭苍苍，白露为霜。所谓伊人，在水一方。}{type:j}{from:蒹葭}{from_who:null}{creator:不朽千秋}{created_at:1545974339}{length:20}
+{id:4211}{text:蒹葭萋萋，白露未晞。所谓伊人，在水之湄。}{type:j}{from:蒹葭}{from_who:null}{creator:不朽千秋}{created_at:1545974350}{length:20}
+{id:4212}{text:蒹葭采采，白露未已。所谓伊人，在水之涘。}{type:j}{from:蒹葭}{from_who:null}{creator:不朽千秋}{created_at:1545974361}{length:20}
+{id:4227}{text:人活着，当哭则哭，声音不悲不哭。}{type:j}{from:人生}{from_who:null}{creator:卡夫卡}{created_at:1546698250}{length:16}
+{id:4236}{text:常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。}{type:j}{from:如梦令}{from_who:null}{creator:smallxu}{created_at:1547788222}{length:27}
+{id:4247}{text: To boldly go where no one has gone before.}{type:j}{from:星际迷航}{from_who:null}{creator:smallxu}{created_at:1547790262}{length:43}
+{id:4248}{text:撞上南墙终于悔悟的我，从未感觉如此失落。}{type:j}{from:星际迷航}{from_who:null}{creator:smallxu}{created_at:1547790793}{length:20}
+{id:4253}{text:命运他无法让我跪地求饶，就算鲜血撒满了怀抱。}{type:j}{from:追梦赤子心}{from_who:null}{creator:smallxu}{created_at:1547798090}{length:22}
+{id:4254}{text:宇宙中唯有两件事物是无限的：那就是宇宙的大小与人的愚蠢。而宇宙的大小我却不能肯定。}{type:j}{from:爱因斯坦}{from_who:null}{creator:smallxu}{created_at:1547798327}{length:41}
+{id:4255}{text:轻关易道，通商宽农。}{type:j}{from:晋语}{from_who:null}{creator:赏花不如吃团子}{created_at:1547888984}{length:10}
+{id:4263}{text:梦は终わり目を觉ます时、绝望や希望も同时に目を觉ました。}{type:j}{from:TAKA}{from_who:null}{creator:YukoAsuka}{created_at:1548697153}{length:28}
+{id:4272}{text:纵是年少风流可入画，却也自成风骨难笔拓。}{type:j}{from:永安调}{from_who:null}{creator:不喝温水}{created_at:1549435122}{length:20}
+{id:4274}{text:forget-me-not，Ash to ash, dust to dust，どうか忘れないで}{type:j}{from:forget–me–not}{from_who:null}{creator:Amadeus}{created_at:1549455245}{length:47}
+{id:4283}{text:生生不息，繁荣昌盛。}{type:j}{from:星际迷航}{from_who:null}{creator:smallxu}{created_at:1549888324}{length:10}
+{id:4302}{text:征服可能会受挫，但好奇从未停息。}{type:j}{from:2001太空漫游}{from_who:null}{creator:蒟蒻XZY}{created_at:1550633946}{length:16}
+{id:4304}{text:No puzzle that couldn't be solved!}{type:j}{from:平面国}{from_who:null}{creator:蒟蒻XZY}{created_at:1550939303}{length:34}
+{id:4312}{text:科学就是去确定未知的事物}{type:j}{from:星际穿越}{from_who:null}{creator:taskmag}{created_at:1557409423}{length:12}
+{id:4317}{text:还没开始，就已经结束了吗……}{type:j}{from:其他}{from_who:null}{creator:「❦」}{created_at:1557299870}{length:14}
+{id:4322}{text:创作一部动画也就是创造一个虚拟的世界，这个世界慰藉着那些暂时失去勇气的、与残忍现实搏斗的灵魂。}{type:j}{from:宫崎骏}{from_who:null}{creator:eaea}{created_at:1556780946}{length:47}
+{id:4340}{text:问苍茫大地，谁主沉浮？}{type:j}{from:诗词}{from_who:null}{creator:smallfang}{created_at:1551690767}{length:11}
+{id:4343}{text:如果我们有再三思考的机会，几乎没有一件事情是不能被简化的。}{type:j}{from:高德纳}{from_who:null}{creator:綾音}{created_at:1551794743}{length:29}
+{id:4344}{text:我愿披挂长风扬鞭策马，去看去唱那四海之大}{type:j}{from:最大化+}{from_who:null}{creator:綾音}{created_at:1551869246}{length:20}
+{id:4345}{text:流水线上的量产品迟早退场，我就做我的孤品随心所欲好了}{type:j}{from:最大化+}{from_who:null}{creator:綾音}{created_at:1551869402}{length:26}
+{id:4346}{text:无法拒绝的礼物，决定了我的轮廓什么样，却不能把我的心也捆绑}{type:j}{from:最大化+}{from_who:null}{creator:綾音}{created_at:1551869488}{length:29}
+{id:4348}{text:未来不是被给予的，而是自己争取的。}{type:j}{from:尼尔：机械纪元}{from_who:null}{creator:moto350}{created_at:1551932443}{length:17}
+{id:4351}{text:人的生活有许多楼层，眼睛看得见的只是一种可能性，但心中则汇集着所有可能性。}{type:j}{from:卡夫卡书信日记选}{from_who:null}{creator:綾音}{created_at:1552317981}{length:37}
+{id:4352}{text:唯有爱与梦想不可辜负}{type:j}{from:爱与梦想}{from_who:null}{creator:执笔乄画倾城}{created_at:1552391113}{length:10}
+{id:4362}{text:竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。}{type:j}{from:定风波}{from_who:null}{creator:Jason_Lee}{created_at:1556092195}{length:19}
+{id:4368}{text:如果你给别人讲解程序时，看到对方点头了，那你就拍他一下，他肯定睡觉了。}{type:j}{from:艾伦•佩利}{from_who:null}{creator:綾音}{created_at:1551794485}{length:35}
+{id:4369}{text:依然记得从你口中说出再见坚决如铁}{type:j}{from:黄昏}{from_who:null}{creator:memset0}{created_at:1551772960}{length:16}
+{id:4373}{text:月色与雪色之间，你是第三种绝色。}{type:j}{from:绝色}{from_who:null}{creator:阑珊}{created_at:1554535104}{length:16}
+{id:4385}{text:下次你路过，人间已无我。}{type:j}{from:欢呼哈雷}{from_who:null}{creator:阑珊}{created_at:1554535024}{length:13}
+{id:4386}{text:愿各位程序员都能记住，输出第一条hello world时候的心情。坚持下去，你的每一条代码都在默默的改变世界，加油！加油！加油！}{type:j}{from:角落里的程序员}{from_who:null}{creator:Lo1i}{created_at:1546742805}{length:64}
+{id:4392}{text:いつだって 信じて 可能性 は無限大}{type:j}{from:i BELIEVE～星に願いを}{from_who:null}{creator:kiseopt}{created_at:1553339614}{length:18}
+{id:4393}{text:花火みたいな綺麗な人になれば 良かったかな}{type:j}{from:ルミネセンス}{from_who:null}{creator:kiseopt}{created_at:1553340266}{length:21}
+{id:4394}{text:逢うべき糸に出逢えることを 人は仕合わせと呼びます}{type:j}{from:糸}{from_who:null}{creator:kiseopt}{created_at:1553340966}{length:25}
+{id:4408}{text:到底是孤独的人强大，还是强大的人孤独。}{type:j}{from:网易云音乐热评}{from_who:null}{creator:FairHand}{created_at:1553906845}{length:19}
+{id:4410}{text:最怕一生碌碌无为，还安慰自己平凡可贵。}{type:j}{from:网易云音乐热评}{from_who:null}{creator:FairHand}{created_at:1553906955}{length:19}
+{id:4411}{text:地球还在旋转，太阳照常升起。我还有梦，尚待实现。}{type:j}{from:网易云音乐热评}{from_who:null}{creator:FairHand}{created_at:1553906975}{length:24}
+{id:4412}{text:I never change whatever U change.}{type:j}{from:网易云音乐热评}{from_who:null}{creator:FairHand}{created_at:1553907127}{length:33}
+{id:4413}{text:I am a slow walker, but I never walk backwards. 我走的很慢，但我从来不走回头路。}{type:j}{from:亚伯拉罕•林肯}{from_who:null}{creator:FairHand}{created_at:1553907002}{length:63}
+{id:4419}{text:笑口常开，好彩自然来！}{type:j}{from:好彩妹}{from_who:null}{creator:三清大帝在上}{created_at:1554346451}{length:11}
+{id:4422}{text:这永远闪光的梦想，穿过每一个清晨，每一个不眠夜晚。}{type:j}{from:许巍•无尽光芒}{from_who:null}{creator:泷涯}{created_at:1555337885}{length:25}
+{id:4423}{text:人生若只如初见，何事秋风悲画扇。}{type:j}{from:木兰词•拟古决绝词柬友}{from_who:null}{creator:哈鹿噶kida}{created_at:1555501376}{length:16}
+{id:4428}{text:南风知我意，吹梦到西洲。}{type:j}{from:西洲曲}{from_who:null}{creator:彭小呆}{created_at:1556070216}{length:12}
+{id:4435}{text:旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人。}{type:j}{from:柯宝宝}{from_who:null}{creator:kelihong520}{created_at:1557767872}{length:36}
+{id:4436}{text:背上背包，带上行囊，去你的世界旅行。}{type:j}{from:柯宝宝}{from_who:null}{creator:kelihong520}{created_at:1557767907}{length:18}
+{id:4444}{text:世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。}{type:j}{from:斯里兰卡}{from_who:null}{creator:纵横天下}{created_at:1558608031}{length:32}
+{id:4459}{text:白马入芦花，银碗里盛雪。}{type:j}{from:日本和歌}{from_who:null}{creator:大雪封山}{created_at:1566616691}{length:12}
+{id:4460}{text:如果最开始我没欺骗你，我们会怎样？}{type:j}{from:原创}{from_who:null}{creator:星宿凌雾}{created_at:1566660644}{length:17}
+{id:4486}{text:Hand down, man down.}{type:j}{from:德鲁大叔}{from_who:null}{creator:Uncle_drew}{created_at:1560511306}{length:19}
+{id:4492}{text:形而上者谓之道，形而下者谓之器。}{type:j}{from:《易经》}{from_who:null}{creator:MILLOPE}{created_at:1560865357}{length:16}
+{id:4506}{text:一直都在躲雨，你有考虑过雨的感受吗？}{type:j}{from:欢欢}{from_who:null}{creator:hero}{created_at:1562134622}{length:18}
+{id:4507}{text:I AK IOI}{type:j}{from:ypy&zyd&ym&ygy}{from_who:null}{creator:Steven_Meng}{created_at:1562140877}{length:8}
+{id:4512}{text:不驰于空想，不骛于虚声。}{type:j}{from:李大钊}{from_who:null}{creator:蓝白条纹的天空}{created_at:1562580132}{length:12}
+{id:4526}{text:你启唇似又要咏遍上邪，说的却是：“我愿与君绝。”}{type:j}{from:上邪}{from_who:null}{creator:Venus}{created_at:1562980941}{length:24}
+{id:4553}{text:不要想着有一份稳定的工作，而是有让生活稳定的本事。}{type:j}{from:RtyXmd}{from_who:null}{creator:RtyXmd}{created_at:1563862636}{length:25}
+{id:4554}{text:稳定不是一辈子拴在一个单位，而是有本事去任何单位。}{type:j}{from:RtyXmd}{from_who:null}{creator:RtyXmd}{created_at:1563862699}{length:25}
+{id:4564}{text:“你知道，我以前是红色的。和我喷出的火焰一样的赤红。那些日子真是美好啊。”}{type:j}{from:scp-3844}{from_who:null}{creator:「❦」}{created_at:1564316816}{length:37}
+{id:4566}{text:且将新火试新茶，诗酒趁年华}{type:j}{from:来自网络}{from_who:null}{creator:牙人圭uu}{created_at:1564899782}{length:13}
+{id:4572}{text:祈祷奇迹，其实不如无尽的练习。}{type:j}{from:林俊杰《黑键》}{from_who:null}{creator:QIQI}{created_at:1565491202}{length:15}
+{id:4575}{text:如果再也见不到你，祝你早安、午安、晚安。}{type:j}{from:楚门的世界}{from_who:null}{creator:vien blus}{created_at:1565677228}{length:20}
+{id:4576}{text:欲戴王冠，必承其重。}{type:j}{from:亨利四世}{from_who:null}{creator:qwqbear}{created_at:1565682617}{length:10}
+{id:4588}{text:讨厌酒的味道，却爱上醉的感觉。}{type:j}{from:我的}{from_who:null}{creator:小璐迷了路}{created_at:1566625809}{length:15}
+{id:4592}{text:今天也要开心哟~}{type:j}{from:小千}{from_who:null}{creator:四斤}{created_at:1566870153}{length:8}
+{id:4599}{text:爱你我也不在是那个幼稚的少年。}{type:j}{from:那个女孩}{from_who:null}{creator:陵宇}{created_at:1567062165}{length:15}
+{id:4619}{text:醉后不知天在水，满船清梦压星河}{type:j}{from:唐温如}{from_who:null}{creator:allenwang}{created_at:1567671077}{length:15}
+{id:4620}{text:赌书消得泼茶香，当时只道是寻常}{type:j}{from:纳兰性德}{from_who:null}{creator:旒虬}{created_at:1567673987}{length:15}
+{id:4631}{text:世间无限丹青手，一片伤心画不成。}{type:j}{from:金陵晚望}{from_who:null}{creator:Sariay}{created_at:1567971033}{length:16}
+{id:4635}{text:爱你所爱，行你所行，听从你心，无问西东。}{type:j}{from:无问西东}{from_who:null}{creator:山河故人}{created_at:1568192471}{length:20}
+{id:4663}{text:不以物喜，不以己悲。}{type:j}{from:岳阳楼记}{from_who:null}{creator:smallxu}{created_at:1569327326}{length:10}
+{id:4664}{text:人有悲欢离合，月有阴晴圆缺，此事古难全，但愿人长久，千里共婵娟。}{type:j}{from:水调歌头}{from_who:null}{creator:smallxu}{created_at:1569327387}{length:32}
+{id:4665}{text:长风破浪会有时，直挂云帆济沧海。}{type:j}{from:行路难}{from_who:李白}{creator:smallxu}{created_at:1569327421}{length:16}
+{id:4666}{text:明月装饰了你的窗子，你装饰了别人的梦。}{type:j}{from:断章}{from_who:null}{creator:smallxu}{created_at:1569328047}{length:19}
+{id:4675}{text:不可盲目期待，不可执念过深，不可用力过猛。}{type:j}{from:小感}{from_who:null}{creator:哇哈哈}{created_at:1569660003}{length:21}
+{id:4677}{text:其实不用担心，你们中的很多人一辈子都不会遇见你梦想的真爱。只会因为害怕孤独地死去而选择随便找个人，互相饲养。}{type:j}{from:塞内加}{from_who:null}{creator:eaea}{created_at:1569775238}{length:54}
+{id:4679}{text:为什么我的眼里常含泪水？因为我对这土地爱的深沉。}{type:j}{from:我爱这土地}{from_who:null}{creator:smallxu}{created_at:1569846565}{length:24}
+{id:4687}{text:明明喜欢，却要装作无所事事，等到已从身边离去，而来追悔莫及。}{type:j}{from:网络}{from_who:丁先生}{creator:丁先生}{created_at:1569159812}{length:30}
+{id:4691}{text:善為士者，不武；善战者，不怒；善胜敌者，不与；善用人者，為之下。}{type:j}{from:道德经}{from_who:null}{creator:你家炸了}{created_at:1569659800}{length:32}
+{id:4702}{text:逝者如斯，不舍昼夜。}{type:j}{from:其他}{from_who:null}{creator:气质}{created_at:1570606318}{length:10}
+{id:4709}{text:曾经沧海难为水，除却巫山不是云。取次花丛懒回顾，半缘修道半缘君。}{type:j}{from:离思}{from_who:null}{creator:鳯凰栖梧}{created_at:1571141417}{length:32}
+{id:4784}{text:只要一想起一生中最后悔的事，梅花便落下来了，梅花真的落下来了，我们在粗粝的生活中慢慢变老，不变的是当年那颗热爱生活的心。}{type:j}{from:素雅-}{from_who:null}{creator:素雅}{created_at:1571190666}{length:60}
+{id:4787}{text:我的手机明明没有坏掉，可是她为什么没给我打电话呢？}{type:j}{from:网络}{from_who:null}{creator:WDQ}{created_at:1571971993}{length:25}
+{id:4790}{text:掠过浮霞光影，最后能赢下生活的，还是我们。}{type:j}{from:klssxbc0002}{from_who:null}{creator:Dead_Walker}{created_at:1571640828}{length:21}
+{id:4798}{text:无眼界，乃至无意识界，无无明，亦无无明尽，乃至无老死，亦无老死尽。}{type:j}{from:般若波罗蜜多心经}{from_who:null}{creator:Larry}{created_at:1571147191}{length:33}
+{id:4799}{text:人于浮世，独来独往，独生独死，苦乐自当，无有代者。}{type:j}{from:《无量寿经》}{from_who:null}{creator:心软爸爸}{created_at:1571539336}{length:25}
+{id:4839}{text:人生就像一杯茶，不会苦一辈子，但会苦一阵子}{type:j}{from:启东中学作业本}{from_who:null}{creator:1212967}{created_at:1572737355}{length:21}
+{id:4861}{text:世情薄，人情恶，两送黄昏花易落。晓风残，泪痕残。欲笺心事，独倚斜阑。难，难，难！}{type:j}{from:钗头凤•世情薄}{from_who:null}{creator:鳯凰栖梧}{created_at:1571141913}{length:40}
+{id:4862}{text:人成各，今非昨，病魂常似秋千索。角声寒，夜阑珊。怕人询问，咽泪装欢。瞒，瞒，瞒！}{type:j}{from:钗头凤•世情薄}{from_who:null}{creator:鳯凰栖梧}{created_at:1571142004}{length:40}
+{id:4901}{text:永远相信，美好的事情即将发生。}{type:j}{from:小米公司}{from_who:null}{creator:DreamerT}{created_at:1573486289}{length:15}
+{id:4942}{text:世界本就不完美，我们不过顺势而为}{type:j}{from:毕淑敏}{from_who:null}{creator:清茶-烈酒°}{created_at:1575645307}{length:16}
+{id:4943}{text:新时代，共享未来！}{type:j}{from:中国国际进口博览会}{from_who:null}{creator:狗毛小窝}{created_at:1575696930}{length:9}
+{id:4958}{text:人这种生物，无论是谁，切开来剥了皮后都只是一团肉而已，死了就知道了。}{type:j}{from:其他}{from_who:null}{creator:SpringHan}{created_at:1576313536}{length:34}
+{id:4998}{text:你只看到了第二层，而你只把我想成了第一层，实际上我是第五层}{type:j}{from:金牌讲师大司马}{from_who:大司马}{creator:losting}{created_at:1581449719}{length:29}
+{id:4999}{text:因为你不会，所以你才会}{type:j}{from:金牌讲师大司马}{from_who:大司马}{creator:losting}{created_at:1581449429}{length:11}
+{id:5024}{text:民谣有三：爱情、理想、远方；听者有三：孤独、平庸、落魄}{type:j}{from:殿下}{from_who:null}{creator:殿下}{created_at:1576821449}{length:29}
+{id:5028}{text:你已经奔走了许久，坚持最后一战，你就是冠军。}{type:j}{from:南先生}{from_who:null}{creator:南先生}{created_at:1576485950}{length:22}
+{id:5032}{text:我独自度过了太多的时光，沉默已成一种习惯。}{type:j}{from:夜航西飞}{from_who:null}{creator:Irony}{created_at:1576129068}{length:21}
+{id:5033}{text:失去的生命不能复归，也用不着复归。}{type:j}{from:留德十年}{from_who:null}{creator:Irony}{created_at:1576129301}{length:17}
+{id:5034}{text:只要还在人间，你就不会完全麻木。}{type:j}{from:行板如歌}{from_who:null}{creator:Irony}{created_at:1576129837}{length:16}
+{id:5035}{text:无边的海洋里漂流的小船，不知何时就会被狂风所倾覆；而小船上平凡的我们，也只能怀着渺茫的希望，跟随着舵手指引的航向前行吧。}{type:j}{from:十二省联考 2019}{from_who:null}{creator:Tantantann}{created_at:1577280736}{length:60}
+{id:5043}{text:跑得快不一定赢，不跌跟头才是成功}{type:j}{from:8848太监手机}{from_who:null}{creator:泠泫凝}{created_at:1578204401}{length:16}
+{id:5058}{text:事物的发展是前进性与曲折性的统一}{type:j}{from:Jane}{from_who:null}{creator:Nice南先生}{created_at:1579144602}{length:16}
+{id:5059}{text:跑下去，天自己会亮}{type:j}{from:New Balance广告片台词}{from_who:null}{creator:alina_07}{created_at:1579420609}{length:9}
+{id:5086}{text:即使这些回忆使我感到悲伤，我也必须前进，相信未来。即使是在我感到了我的孤单，即将失去所有的希望，这份回忆，也使我更加坚强。}{type:j}{from:Shelter}{from_who:Porter Robinson}{creator:Ali}{created_at:1582468972}{length:61}
+{id:5114}{text:太阳请不要晒黑我的皮肤，请晒黑我爸爸妈妈的头发。}{type:j}{from:酷狗音乐}{from_who:null}{creator:凡为过往，皆为序章}{created_at:1581864791}{length:24}
+{id:5118}{text:白日不到处，青春恰自来。苔花如米小，也学牡丹开。}{type:j}{from:苔}{from_who:袁枚}{creator:zqfzqf}{created_at:1579912512}{length:24}
+{id:5121}{text:不负韶华，不忘初心。}{type:j}{from:Jane}{from_who:null}{creator:Nice南先生}{created_at:1579144697}{length:10}
+{id:5132}{text:你写下的每一个bug，都是人类反抗被人工智能统治的一颗子弹!}{type:j}{from:辣椒の酱}{from_who:null}{creator:辣椒の酱}{created_at:1574691698}{length:30}
+{id:5145}{text:然后知生于忧患，而死于安乐也。}{type:j}{from:孟子}{from_who:null}{creator:狗毛小窝}{created_at:1577540116}{length:15}
+{id:5146}{text:我们所可以自慰的，想来想去，也还是所谓对于将来的希望。希望是附丽于存在的，有存在，便有希望，有希望，便是光明。}{type:j}{from:十二省联考 2019}{from_who:null}{creator:Tantantann}{created_at:1577281223}{length:55}
+{id:5197}{text:今天的南京应该很挤吧，毕竟有30万人要回家。}{type:j}{from:心印杂记}{from_who:null}{creator:心印001}{created_at:1583224749}{length:22}
+{id:5249}{text:我们在青春里遇见，写下纯白的誓言，在夏天来临之前。}{type:j}{from:在青春里遇见}{from_who:null}{creator:狂三游六花。}{created_at:1583809501}{length:25}
+{id:5332}{text:嗨！别来无恙啊！}{type:j}{from:Windows10提示语}{from_who:微软}{creator:狗毛小窝}{created_at:1584711074}{length:8}
+{id:5339}{text:我不后悔我曾爱过，只是天涯从此寂寞，短暂的幸福拥有就足够，只要舍得就会快了，会快乐。}{type:j}{from:我不后悔}{from_who:郑源}{creator:契约}{created_at:1584956902}{length:42}
+{id:5341}{text:善思博学，努力进取。}{type:j}{from:张万军}{from_who:张万军}{creator:张一}{created_at:1585024571}{length:10}
+{id:5371}{text:My love for you always grow, with passing year.}{type:j}{from:Eudic}{from_who:56}{creator:56}{created_at:1585450849}{length:47}
+{id:5377}{text:梦想和现实，中间隔着一条泥泞的路，什么样的结果，取决于脚！}{type:j}{from:龙城浪子}{from_who:null}{creator:龙尧}{created_at:1585025131}{length:29}
+{id:5385}{text:任何时代的诗歌都是关于人、人的生存方式、人的存在境遇的叩问，关于人生价值与意义的探寻。}{type:j}{from:龙城浪子}{from_who:null}{creator:龙尧}{created_at:1585114186}{length:43}
+{id:5404}{text:要不断的移动像水一样，才不会变成死水一样，你要不断流动着！}{type:j}{from:李小龙}{from_who:null}{creator:a632079}{created_at:1585557357}{length:29}
+{id:5416}{text:当某天，雨点轻敲你窗，当风声吹乱你构想，可否抽空想这张，旧模样。}{type:j}{from:千千阙歌}{from_who:林振强}{creator:Cat}{created_at:1585817500}{length:32}
+{id:5423}{text:彼此这么了解，难怪注定似兄妹一对。}{type:j}{from:钟无艳}{from_who:林夕}{creator:Cat}{created_at:1585818346}{length:17}
+{id:5426}{text:愿你有一天能和你最重要的人重逢。}{type:j}{from:可塑性记忆的影评}{from_who:水水若空}{creator:sjfhsjfh}{created_at:1585632299}{length:16}
+{id:5954}{text:开始的倾心交谈，沦为平淡。}{type:j}{from:《与我无关》}{from_who:阿冗}{creator:晚柠}{created_at:1586564028}{length:13}
+{id:5964}{text:你的眼中，明暗交杂，一笑生花。}{type:j}{from:起风了}{from_who:米果}{creator:郭遥}{created_at:1587108705}{length:15}
+{id:5986}{text:如果喜欢和合适撞个满怀多好。}{type:j}{from:不待}{from_who:契约千魂}{creator:契约}{created_at:1586341544}{length:14}
+{id:6000}{text:吾志所向，一往无前，愈挫愈奋，再接再厉。}{type:j}{from:孙中山}{from_who:孙中山}{creator:flowphyl}{created_at:1586362439}{length:20}
+{id:6001}{text:The only way to get rid of a temptation is to yield to it. I can resist everything except temptation.}{type:j}{from:王尔德}{from_who:王尔德}{creator:清秋拂依}{created_at:1586401555}{length:101}
+{id:6004}{text:在人间有谁活着不像是一场炼狱，我不哭我已经没有尊严能放弃。}{type:j}{from:在人间}{from_who:王建房}{creator:lzt}{created_at:1586500363}{length:29}
+{id:6102}{text:假如失去追寻的动力，人类将消失在永恒的黑暗中。}{type:j}{from:深い森}{from_who:Do As Infinity}{creator:PercyDan}{created_at:1588646543}{length:23}
+{id:6103}{text:他们想要的成熟我想不通，他们嘴里的软弱我听不懂。}{type:j}{from:不愿回头}{from_who:南征北战}{creator:PercyDan}{created_at:1588648090}{length:24}
+{id:6114}{text:若是我笑得皮开又肉绽，就莫问，离合悲欢。}{type:j}{from:至尊宝}{from_who:徐良}{creator:Cat}{created_at:1588590960}{length:20}
+{id:6138}{text:遇到问题沉默是人的本能，沉默过后怎么解决是人的选择。毫不在意不是冷酷无情，不管他们怎么选择，这与你无关。}{type:j}{from:罪犯请沉默}{from_who:迷羔羊}{creator:AMU}{created_at:1591446575}{length:52}
+{id:6157}{text:是谁来自山川湖海，却囿于昼夜厨房与爱。}{type:j}{from:揪心的玩笑与漫长的白日梦}{from_who:姬赓}{creator:郭遥}{created_at:1589356568}{length:19}
+{id:6158}{text:夜来草木见露水，鸿雁南渡避寒。}{type:j}{from:雪中悍刀行}{from_who:烽火戏诸侯}{creator:本事}{created_at:1589357425}{length:15}
+{id:6206}{text:前程莫怕无知已，只怕每天只有404。}{type:j}{from:IT程序员}{from_who:云歌}{creator:yunge}{created_at:1590851823}{length:18}
+{id:6257}{text:我们学哲学是为了什么？应该是为了明白我们向死而生的这一辈子应该怎么过。}{type:j}{from:我的一位老师}{from_who:生活}{creator:Irony}{created_at:1592126146}{length:35}
+{id:6266}{text:不要因为结束而哭泣，要因它发生过而欣喜。}{type:j}{from:打开一颗心}{from_who:西奥多•苏斯•盖泽尔（苏斯博士）}{creator:Irony}{created_at:1592124827}{length:20}
+{id:6272}{text:哦~我的老伙计，祝你度过有意义的一天~!}{type:j}{from:网络}{from_who:null}{creator:无脑僵}{created_at:1592095655}{length:20}
+{id:6274}{text:现在的我，未来的我，一起去啊，更远的地方！}{type:j}{from:伪装学渣}{from_who:木瓜黄}{creator:07}{created_at:1592025834}{length:21}
+{id:6314}{text:心中多少的沧桑，不可抵挡的空虚，卑躬屈膝的一生，今天必须冲出那枷锁，就要像狂人，呼叫响震天！}{type:j}{from:金属狂人}{from_who:黄家驹}{creator:PaulWong}{created_at:1592982161}{length:46}
+{id:6315}{text:你可以怪我甚至可以骗我，不过你绝不可以把我当初哥。}{type:j}{from:初哥}{from_who:黄贯中}{creator:PaulWong}{created_at:1592982194}{length:25}
+{id:6316}{text:于是悲欢起落人静默，等一等这些伤会自由。}{type:j}{from:口是心非}{from_who:张雨生}{creator:PaulWong}{created_at:1592982247}{length:20}
+{id:6317}{text:你盏教坏细路，脑袋注定发霉，赈灾当做节目，点解叫座叫好。}{type:j}{from:教坏细路}{from_who:beyond}{creator:PaulWong}{created_at:1592982272}{length:28}
+{id:6318}{text:共你热恋可抵挡冰天雪地，共你拥抱能忘掉名利，没有一个人在可以媲美。}{type:j}{from:无得比}{from_who:黄贯中}{creator:PaulWong}{created_at:1592982468}{length:33}
+{id:6319}{text:我不自觉，跌进这一角落，来去的拉拖，错过再错过，我不认错，纵我听不到附和，谁也都清楚。}{type:j}{from:睡火山}{from_who:黄贯中}{creator:PaulWong}{created_at:1592982659}{length:43}
+{id:6342}{text:幽暗，让我们向往光明。}{type:j}{from:罗翔}{from_who:罗翔}{creator:我一点也不胖}{created_at:1594731723}{length:11}
+{id:6364}{text:小时候我会做1加1等于2，而邻居家的大哥哥会做1万加1万等于2万。他居然可以做到那么大的数字，我很佩服。他还说，等他上了大学就可以知道1亿加1亿是多少了。}{type:j}{from:网络}{from_who:null}{creator:无昵称}{created_at:1594045236}{length:77}
+{id:6365}{text:无伤大雅。}{type:j}{from:网络}{from_who:null}{creator:懒猫猫}{created_at:1594084460}{length:5}
+{id:6370}{text:如果你觉得黑暗，那你就做黑暗中的一盏光吧。}{type:j}{from:罗翔}{from_who:罗翔}{creator:我一点也不胖}{created_at:1594731520}{length:21}
+{id:6371}{text:看惯黑夜的人不应该习惯黑夜，而应该更习惯光明。}{type:j}{from:罗翔说刑法}{from_who:罗翔}{creator:bobwxc}{created_at:1594733982}{length:23}
+{id:6373}{text:Those who believe without reason cannot be convinced by reason.}{type:j}{from:JamesRandi}{from_who:-JamesRandi, magician and skeptic (b. 7 Aug 1928)}{creator:Aaron}{created_at:1594292375}{length:63}
+{id:6375}{text:看惯黑夜的人，不应该习惯黑夜，而是应该期待黑夜中的光明。}{type:j}{from:罗翔}{from_who:罗翔}{creator:我一点也不胖}{created_at:1594731290}{length:28}
+{id:6391}{text:不是为了要求你做些什么才生下你，而是想为你做些什么才生下了你。}{type:j}{from:空间}{from_who:佚名}{creator:Lakr233}{created_at:1596083800}{length:31}
+{id:6392}{text:战争只在历史书籍历书写了四页，却撕掉了将近一半的世界。}{type:j}{from:Hold my hand}{from_who:MC光光、法老}{creator:你有多久没有看过星星}{created_at:1596108512}{length:27}
+{id:6393}{text:时间是美好的，他让我们相遇；时间也是混蛋的，他又让我们分别。}{type:j}{from:一张卡片}{from_who:张同学}{creator:你有多久没有看过星星}{created_at:1596107598}{length:30}
+{id:6404}{text:OH LADY，可否将我带返去你屋企，日夜陪你，红橙色，勾出的你，你使我记不清，坐或是企。}{type:j}{from:LADY}{from_who:黄贯中}{creator:PaulWong}{created_at:1595523823}{length:45}
+{id:6406}{text:我要和天一样高，寻找一种魅力的情操，我要和天一样高，一样高，我的未来才能看得到。}{type:j}{from:和天一样高}{from_who:张雨生}{creator:PaulWong}{created_at:1595523172}{length:40}
+{id:6409}{text:每个人都应该学会如何编程，因为它教会你如何思考。}{type:j}{from:史蒂夫•乔布斯}{from_who:史蒂夫•乔布斯}{creator:suxin}{created_at:1595592954}{length:24}
+{id:6419}{text:我对音乐并没有很特别的感觉。只是，有的时候，我突然因某段乐音而得到慰解；有的时候，我仿佛能与某些小节灵犀相通，有的时候，我身体的某一部份似乎也同样起了与那位歌者类似的悸动或什么的，我也不太能抓得准。}{type:j}{from:如燕盘旋而来的思念}{from_who:张雨生}{creator:PaulWong}{created_at:1596122258}{length:99}
+{id:6423}{text:我希望海水还是蓝的，仰望天空时太阳不是灰的，与爱的联络不是靠电子产品，希望穿山甲不是博物馆的展品。}{type:j}{from:Hold my hand}{from_who:MC光光、法老}{creator:你有多久没有看过星星}{created_at:1596108850}{length:49}
+{id:6437}{text:情到深处人孤独。}{type:j}{from:生活}{from_who:null}{creator:情绪化}{created_at:1597544307}{length:8}
+{id:6446}{text:我要荣耀向我俯首称臣，征服世界或一无所有。}{type:j}{from:荣耀向我俯首}{from_who:空儿卡}{creator:顾及}{created_at:1596764619}{length:21}
+{id:6456}{text:所以当你迷茫的时候，至少要笑着原谅自己，因为不被使用的心总有一天会枯萎。}{type:j}{from:九番目の迷路}{from_who:アリスシャッハと魔法の楽団}{creator:xiong_6}{created_at:1597399012}{length:36}
+{id:6458}{text:岁月，你别催，该来的我不推。岁月，你别催，走远的仍要追。当不得不说再见的时候，挥别的那一刻就如同流水的光阴，谁能抵得过？谁能叹息？奈何！}{type:j}{from:天下足球}{from_who:null}{creator:流幻的光}{created_at:1602838177}{length:68}
+{id:6589}{text:现实没有reset bottom, 没有extra life, 没有代打上分,没有游戏删挡再重来。}{type:j}{from:头号玩家}{from_who:老番茄}{creator:那隻喵}{created_at:1603106257}{length:49}
+{id:6610}{text:卡布奇诺今犹在，不见当年吃屏人。}{type:j}{from:网络}{from_who:皮皮参}{creator:皮皮参}{created_at:1603724726}{length:16}
+{id:6618}{text:I only wanted you 'cause I couldn't have you.}{type:j}{from:Hope}{from_who:The Chainsmokers, Winona Oak}{creator:River}{created_at:1604156219}{length:45}
+{id:6630}{text:我的容身之所，就是你的身边。}{type:j}{from:理与迷宫的少女}{from_who:夏彦深见}{creator:深见}{created_at:1612429060}{length:14}
+{id:6657}{text:最后再来做个约定吧。一定会再次与你相遇......}{type:j}{from:理与迷宫的少女}{from_who:夏彦深见}{creator:深见}{created_at:1612429214}{length:25}
+{id:6658}{text:确定反应，调整守恒。}{type:j}{from:bilibili}{from_who:某位化学老师的课}{creator:Oneton}{created_at:1603678669}{length:10}
+{id:6737}{text:你在天空之下欢声笑语，却独留我一人呆在黑暗里不自信。}{type:j}{from:原创}{from_who:Naya}{creator:Naya}{created_at:1605722129}{length:26}
+{id:6738}{text:因为太害怕失去，所以才将苦痛剥离。}{type:j}{from:原创}{from_who:Naya}{creator:Naya}{created_at:1605722174}{length:17}
+{id:6751}{text:川端康成自杀，在送往医院急救的途中，对司机说了最后一句话：“路这么挤，辛苦你了”。}{type:j}{from:网络}{from_who:null}{creator:古いいい日}{created_at:1606309273}{length:44}
+{id:6774}{text:I think I speak very poor English, but anyway I dare to say. This is very important.}{type:j}{from:江泽民}{from_who:null}{creator:SomeyaMako}{created_at:1606404446}{length:84}
+{id:6794}{text:无论别人说什么，你只要坚持自我就好了。}{type:j}{from:oioweb}{from_who:null}{creator:Daiyangcheng}{created_at:1606566101}{length:19}
+{id:6795}{text:我终于发觉了自己迷茫的原因。我并不是缺少地图，我缺少的，是目的地。}{type:j}{from:oioweb}{from_who:null}{creator:Daiyangcheng}{created_at:1606566352}{length:33}
+{id:6805}{text:在战略上要藐视敌人，在战术上要重视敌人！}{type:j}{from:毛泽东选集}{from_who:毛主席}{creator:鹿饮林空•}{created_at:1618384160}{length:20}
+{id:6809}{text:人是会交易的动物，狗是不会交换骨头的。}{type:j}{from:国富论}{from_who:null}{creator:风言}{created_at:1616686360}{length:19}
+{id:6852}{text:大部分的生活都乏味得不值一提，根本就没有不乏味的时候。换另一种牌子的香烟也好，搬到一个新地方去住也好，订阅别的报纸也好，坠入爱河又脱身出来也好，我们一直在以或轻浮或深沉的方式，来对抗日常生活那无法消释的乏味成分。}{type:j}{from:杜鲁门•卡波特}{from_who:null}{creator:Yousazoe}{created_at:1607220029}{length:106}
+{id:6856}{text:我们活过的刹那，前后皆是暗夜。}{type:j}{from:费尔南多•佩索阿}{from_who:null}{creator:Yousazoe}{created_at:1607266035}{length:15}
+{id:6991}{text:台下人走过，不见旧颜色。}{type:j}{from:赤怜}{from_who:等什么君}{creator:热弦吉他}{created_at:1611901279}{length:12}
+{id:7010}{text:路难终乘鹏风起，瑶琴不歇为君啼。}{type:j}{from:原创}{from_who:子公}{creator:wsll子公}{created_at:1612325008}{length:16}
+{id:7114}{text:听得懂与聊得来多难得。}{type:j}{from:生活}{from_who:lojoy}{creator:lojoy}{created_at:1618309690}{length:11}
+{id:7116}{text:你和我说他的可爱，你和我说他的好看。恍惚间窥见在樱花树下，铁道边，一对少男少女彼此走着，风起花落拂过他们脸颊。}{type:j}{from:因为有你}{from_who:祉语}{creator:xhduoduobaby}{created_at:1618726438}{length:55}
+{id:7133}{text:愿学术自由之风劲吹。}{type:j}{from:斯坦福大学校训}{from_who:null}{creator:Kyanite}{created_at:1614340298}{length:10}
+{id:7166}{text:如果丢失是为了重新拾回失去之物，那么离别是为了能够再次相逢，道声珍重之后，我们一定能在未来再次向对方说声你好。}{type:j}{from:TOMORROW}{from_who:恒松あゆみ}{creator:smallxu}{created_at:1614775659}{length:55}
+{id:7192}{text:我站在你左侧，却像隔着银河。}{type:j}{from:你不是真正的快乐}{from_who:五月天}{creator:yudong_820}{created_at:1615031724}{length:14}
+{id:7199}{text:江东依旧，故国不在，天上的云是他，吹过耳畔的风是他，江水浪来浪去，朵朵浪花都是他，我看漫野山花，漫山遍野都是他，我行过万里河山，万里河山都是他。}{type:j}{from:灵魂摆渡黄泉篇}{from_who:孙尚香}{creator:澈亦}{created_at:1615039122}{length:72}
+{id:7207}{text:黑暗的环境容易做错事。}{type:j}{from:学校}{from_who:某中学数学老师}{creator:roco}{created_at:1616598920}{length:11}
+{id:7210}{text:没有绝对的废物，只有放错位置的资源。}{type:j}{from:上海市垃圾分类}{from_who:上海市垃圾分类}{creator:雄鹰展翅}{created_at:1616257566}{length:18}
+{id:7211}{text:刚好知交，刚好欢笑，刚好闪耀。}{type:j}{from:长大就好}{from_who:陈亦洺}{creator:一只上上签}{created_at:1616751141}{length:15}
+{id:7360}{text:北树阴浓，青衣成风。}{type:j}{from:《这个王妃路子野，得宠！》}{from_who:封侯拜饭}{creator:BAIYANG}{created_at:1624628045}{length:10}
+{id:7387}{text:数学分析？我已经完全掌握了。}{type:j}{from:魔法少女rqy}{from_who:qhw}{creator:Van nya}{created_at:1618806208}{length:14}
+{id:7389}{text:一等人，有本事，无脾气。二等人，有本事，有脾气。三等人，无本事，无脾气。四等人，无本事，大脾气。}{type:j}{from:一日禅}{from_who:null}{creator:Nanachi}{created_at:1617382192}{length:48}
+{id:7390}{text:心灵被摧毁到模糊的情景、还认为是美丽的话，一定这样才是，生而为人的证据吧。}{type:j}{from:不可解}{from_who:花谱}{creator:Negative_Number}{created_at:1617451888}{length:37}
+{id:7395}{text:也许我或者“我们”，终有一天能自由地生存着。}{type:j}{from:清华THUPC 2020}{from_who:清华THUPC出题方}{creator:AtomAlpaca}{created_at:1617527533}{length:22}
+{id:7475}{text:眉若远山，目运星河。}{type:j}{from:《源初幻想》}{from_who:鹤空流乂}{creator:鹤空流乂}{created_at:1627988349}{length:10}
+{id:7491}{text:人生就是一场旅行，没有终点的这条路，和爱着的人肩并肩，寻找着梦的所在。}{type:j}{from:川の流れ(川流不息)}{from_who:null}{creator:smallxu}{created_at:1629229667}{length:35}
+{id:7492}{text:旧日爱人对我微笑，可他虽然对我微笑，却留我独处森林中，困倦让我进入梦乡，可对爱人无限的爱，却又让我重新醒来。}{type:j}{from:Kaar Deerge Chouvulangnig}{from_who:null}{creator:smallxu}{created_at:1629230019}{length:54}
+{id:7521}{text:我们生来，就是为了，在宇宙中，留下印记。}{type:j}{from:史蒂夫•乔布斯}{from_who:Steve Jobs}{creator:ZhiLing}{created_at:1633579937}{length:20}
+{id:7527}{text:生活中最重要的不是凯旋，而是奋斗。}{type:j}{from:《人民日报》}{from_who:《人民日报》}{creator:Clouder}{created_at:1634137100}{length:17}
+{id:7536}{text:要坚持去寻找那剩下的3%，不要因为那97%而放弃。}{type:j}{from:戒毒所}{from_who:null}{creator:四方霸主}{created_at:1633792402}{length:26}
+{id:7609}{text:这趟旅行若算开心，亦是无负这一生。}{type:j}{from:落花流水}{from_who:陈奕迅}{creator:White_mu}{created_at:1635042310}{length:17}
+{id:7643}{text:无论多么痛苦，都要把故事的书页翻下去；总有一天，能够到达可以看到满天繁星的地方。}{type:j}{from:文学少女}{from_who:天野远子}{creator:Kyanite}{created_at:1619934729}{length:40}
+{id:7654}{text:与其斤斤计较，不如糊里糊涂。既然无法强求，不如学会满足。与其争争吵吵，不如心平气和。既然不能如愿，不如试着释怀。}{type:j}{from:借}{from_who:毛不易}{creator:陈弋函}{created_at:1638545064}{length:59}
+{id:7702}{text:实变函数学十遍，泛函学完心泛寒。}{type:j}{from:数学系名言}{from_who:null}{creator:Kyanite}{created_at:1620992330}{length:16}
+{id:7730}{text:认为自己的人种和文明高人一等是愚蠢的。}{type:j}{from:亚洲文明对话大会开幕式}{from_who:习近平}{creator:all}{created_at:1642333162}{length:19}
+{id:7766}{text:如果我们总是等着自己做好准备，那可能这一生都在等待中度过了。}{type:j}{from:欧路每日一句}{from_who:佚名}{creator:雀刀}{created_at:1634752810}{length:30}
+{id:7767}{text:我既开始，我必完成；我既决定，我必贯彻。}{type:j}{from:南京大学新生学习指南}{from_who:南京大学教务处全体老师}{creator:雀刀}{created_at:1633127680}{length:20}
+{id:7852}{text:人这一生，匆匆而过，若说真有所图，也不过是一份温暖和惦记}{type:j}{from:快手}{from_who:佚名}{creator:•᷄ࡇ•᷅}{created_at:1648897679}{length:28}
+{id:7855}{text:Make it.}{type:j}{from:Dingtalk}{from_who:Zeten}{creator:智浅}{created_at:1649062812}{length:8}
+{id:7928}{text:The past is everything we were don't make us who we are.}{type:j}{from:Dream It Possible}{from_who:Delacry}{creator:liu peixin}{created_at:1657788162}{length:56}
+{id:7936}{text:在没有错误日志的情况下诊断任何问题无异于闭眼开车。}{type:j}{from:Apache官方文档}{from_who:Apache}{creator:Saobby}{created_at:1657208527}{length:25}
+{id:7948}{text:若不是对自己没信心，我怎会努力？}{type:j}{from:NiuBoss123 Studio}{from_who:NiuBoss123}{creator:NiuBoss123}{created_at:1656241179}{length:16}
+{id:7953}{text:尽可能不给别人添麻烦，别人最好也别麻烦我。这句话不是冷漠，而是成熟。}{type:j}{from:王自健}{from_who:null}{creator:chaichunyang}{created_at:1656657789}{length:34}
+{id:7975}{text:总有一个人一直住在心底，却又告别在生活里。}{type:j}{from:网易云}{from_who:ShimmerLS}{creator:ShimmerLS}{created_at:1624606854}{length:21}
+{id:7986}{text:莫叹明月笑多情，天涯尽头看流光飞去。}{type:j}{from:相思引}{from_who:董贞}{creator:•᷄ࡇ•᷅}{created_at:1651913087}{length:18}
+{id:7987}{text:每个人都有一段悲伤，想隐藏却欲盖弥彰。}{type:j}{from:白月光}{from_who:张信哲}{creator:•᷄ࡇ•᷅}{created_at:1651913138}{length:19}
+{id:7997}{text:一定要解放台湾。}{type:j}{from:中共党史上的80句口号}{from_who:中国共产党}{creator:Avrora}{created_at:1621161590}{length:8}
+{id:7998}{text:从前是牛马，现在要做人！}{type:j}{from:中共党史上的80句口号}{from_who:中国共产党}{creator:Avrora}{created_at:1621158358}{length:12}
+{id:8003}{text:你皮任你皮，把你当瓜皮；你游任你游，全场打酱油；你抓任你抓，跟我不搭噶。}{type:j}{from:大司马直播}{from_who:大司马}{creator:员工小王}{created_at:1621080504}{length:36}
+{id:8007}{text:为了理想，我宁愿忍受寂寞，饮尽那份孤独。}{type:j}{from:三百六十五里路}{from_who:包娜娜}{creator:key lin}{created_at:1624001137}{length:20}
+{id:8013}{text:编程是一种技艺，一种需要用心学习的技艺。}{type:j}{from:程序员修炼之道-从小工到专家}{from_who:null}{creator:imfycc}{created_at:1621612531}{length:20}
+{id:8023}{text:春日雨，夏蝉鸣，明天是个好天气。秋风起，雪花轻，海底看不见四季。}{type:j}{from:海底}{from_who:凤凰传奇}{creator:西瓜暴徒}{created_at:1621588946}{length:32}
+{id:8024}{text:全世界无产者，联合起来。}{type:j}{from:毛泽东选集}{from_who:毛泽东}{creator:sentence}{created_at:1621388595}{length:12}
+{id:8028}{text:我们都有底线，而我也许已经越己的过了自。}{type:j}{from:英雄联盟}{from_who:青钢影}{creator:风尘散人}{created_at:1659613170}{length:20}
+{id:8061}{text:Standing on Shoulders of Giants.}{type:j}{from:图灵书籍}{from_who:图灵}{creator:AIN SITAN}{created_at:1622250144}{length:32}
+{id:8076}{text:别赶路，去感受路。}{type:j}{from:沃尔沃}{from_who:沃尔沃}{creator:Soiltary、K}{created_at:1630033433}{length:9}
+{id:8084}{text:怀念总是，突然怀念，不谈条件。}{type:j}{from:干杯}{from_who:五月天}{creator:Opynicus}{created_at:1631453380}{length:15}
+{id:8090}{text:以风为名，屿之齐鸣。}{type:j}{from:风屿}{from_who:风屿}{creator:嚼碎一颗眼珠}{created_at:1660052744}{length:10}
+{id:8131}{text:爱若执炬迎风，炽烈而哀恸，诸般滋味皆在其中。}{type:j}{from:不老梦}{from_who:银临}{creator:墨竹铭}{created_at:1624777244}{length:22}
+{id:8132}{text:我为鱼，道为网，河为天……那执网的老者便是造化！}{type:j}{from:仙逆}{from_who:耳根}{creator:余空}{created_at:1625303860}{length:24}
+{id:8133}{text:今昔横云有雨，挂满山涧，故人来。}{type:j}{from:仙逆}{from_who:耳根}{creator:余空}{created_at:1625304286}{length:16}
+{id:8134}{text:对我而言，只是短短的五百年。对他而言，却是数之不尽的轮回！}{type:j}{from:仙逆}{from_who:耳根}{creator:余空}{created_at:1625304312}{length:29}
+{id:8137}{text:我不是光芒本身，我只是反射你们光的镜子。}{type:j}{from:SNH48刘增艳}{from_who:SNH48刘增艳}{creator:我有病你有啥}{created_at:1627807307}{length:20}
+{id:8149}{text:幸好思念无声，否则震耳欲聋。}{type:j}{from:Bilibili}{from_who:佚名}{creator:jigeshuohua}{created_at:1632834328}{length:14}
+{id:8155}{text:谁终将声震人间，必长久深自缄默；谁终将点燃闪电，必长久如云漂泊。}{type:j}{from:尼采}{from_who:尼采}{creator:Clouder}{created_at:1634137323}{length:32}
+{id:8161}{text:我希望我能有一点点的时间，来治愈日益强烈的疼痛。}{type:j}{from:Irony English & piano ver}{from_who:Irony}{creator:cancan2333_}{created_at:1636542278}{length:24}
+{id:8163}{text:群青色的天空，是自由的象征。}{type:j}{from:白猫海賊船}{from_who:Yunomi}{creator:cancan2333_}{created_at:1636542501}{length:14}
+{id:8164}{text:我们都是参天大树，都能摘星揽月。}{type:j}{from:Amazing Tree}{from_who:null}{creator:cancan2333_}{created_at:1636541819}{length:16}
+{id:8200}{text:嘿，同桌，记得你说过，你的梦想是遨游太空，愿你继续带着梦想展翅高飞，去拥抱美好的未来。}{type:j}{from:毕业赠言}{from_who:yuanziyu}{creator:yuanziyu}{created_at:1644756395}{length:43}
+{id:8204}{text:仙之巅，傲世间，有我安澜便有天。}{type:j}{from:完美世界.安澜}{from_who:辰东}{creator:•᷄ࡇ•᷅}{created_at:1645522700}{length:16}
+{id:8205}{text:赤锋矛，不朽盾，斩尽仙王灭九天！}{type:j}{from:完美世界.俞妥}{from_who:辰东}{creator:•᷄ࡇ•᷅}{created_at:1645523127}{length:16}
+{id:8213}{text:人生应该删繁留简，任世事摇曳，心始终如莲，安静绽放。}{type:j}{from:白落梅}{from_who:白落梅}{creator:planifolia}{created_at:1647243418}{length:26}
+{id:8217}{text:And just as you bring me back, you push me from the ledge.}{type:j}{from:Album Preview: Who You Are Is Not Enough}{from_who:Athletics}{creator:Flowelife}{created_at:1647582287}{length:58}
+{id:8227}{text:飞上枝头的都风趣，占了巢的都在窃喜。}{type:j}{from:乌鸦}{from_who:许嵩}{creator:宗近一}{created_at:1648368138}{length:18}
+{id:8285}{text:方向比速度重要。}{type:j}{from:巴菲特演讲}{from_who:巴菲特}{creator:8419}{created_at:1652191419}{length:8}
+{id:8299}{text:既然选择面向太阳，那留给世界的只能是背影。}{type:j}{from:语文作文素材}{from_who:不详}{creator:史柒里}{created_at:1659851689}{length:21}
+{id:8307}{text:一人撑伞一人行，从此城西无烟雨。}{type:j}{from:阳西一中}{from_who:林清凝}{creator:Soiltary、K}{created_at:1641701173}{length:16}
+{id:8324}{text:富强、民主、文明、和谐、自由、平等、公正、法治、爱国、敬业、诚信、友善。}{type:j}{from:社会主义核心价值观}{from_who:null}{creator:社会主义好}{created_at:1626772502}{length:36}
+{id:8338}{text:When I saw you,all the stars came to life.I will remember you till the end.}{type:j}{from:Can You Hear Me}{from_who:null}{creator:一只上上签}{created_at:1629123275}{length:75}
+{id:8341}{text:不要因为走得太远，就忘了当初，为什么出发。}{type:j}{from:白岩松}{from_who:白岩松}{creator:Ariml}{created_at:1628483737}{length:21}
+{id:8372}{text:向着风，拥抱彩虹。}{type:j}{from:你的答案}{from_who:阿冗}{creator:zFlqw}{created_at:1641554702}{length:9}
+{id:8374}{text:谁说站在光里的才算英雄。}{type:j}{from:孤勇者}{from_who:唐恬}{creator:赎}{created_at:1641371213}{length:12}
+{id:8395}{text:不让我们站在巨人的肩膀上，我们就自己成长为巨人。}{type:j}{from:朗读者}{from_who:董卿}{creator:高消费给媳妇关心烦}{created_at:1644935569}{length:24}
+{id:8400}{text:败在我手中之敌，从来不会被我视为对手，我给你时间追赶，直至你遥望不见。}{type:j}{from:完美世界.石昊}{from_who:辰东}{creator:•᷄ࡇ•᷅}{created_at:1645522258}{length:35}
+{id:8405}{text:那个夏天像一团旧烟火，回忆牵我。}{type:j}{from:Fin/}{from_who:null}{creator:伍北twinkle}{created_at:1645084862}{length:16}
+{id:8432}{text:那年十八，母校聚会，站着如喽啰。}{type:j}{from:浮夸}{from_who:陈奕迅}{creator:幻想一笑而过}{created_at:1647867311}{length:16}
+{id:8436}{text:极光总会有，并肩于雪山之巅。}{type:j}{from:央视}{from_who:null}{creator:琉璃丶青栀}{created_at:1649758133}{length:14}
+{id:8438}{text:若无闲事挂心头，便是人间好时节。}{type:j}{from:互联网}{from_who:佚名}{creator:•᷄ࡇ•᷅}{created_at:1649586370}{length:16}
+{id:8442}{text:原谅我所言非言，谁教你墨宝非宝。}{type:j}{from:很想很想你}{from_who:姜广涛}{creator:D5xun}{created_at:1649906632}{length:16}
+{id:8470}{text:俄罗斯虽大，但我们已经无路可退，我们的身后就是莫斯科。}{type:j}{from:苏德战争}{from_who:克洛奇科夫•季耶夫}{creator:zhong}{created_at:1652096728}{length:27}
+{id:8494}{text:清晨炎午凉夜一整天都在想关于你的事情，甚至还会妄想起奇怪的事情，不会败给不能与你相见的时间，我会变得可爱迷人起来的，所以你一定要察觉到我哦。}{type:j}{from:可愛くなりたい}{from_who:鎖那}{creator:Will}{created_at:1633057024}{length:70}
+{id:8503}{text:我曾以为自己终能超脱，却没想到存在如此真实而温暖。}{type:j}{from:月影歌}{from_who:阿靥}{creator:黡如}{created_at:1631106582}{length:25}
+{id:8538}{text:有些人，一旦错过就不在。}{type:j}{from:后来}{from_who:刘若英}{creator:smallxu}{created_at:1629228710}{length:12}
+{id:8539}{text:窗外启明星的微光，消散了离别的悲伤，照亮了爱人的行程，而我却仍心存担忧，离别勾起无限悲伤。}{type:j}{from:Kaar Deerge Chouvulangnig}{from_who:sainkho namtchylak}{creator:smallxu}{created_at:1629230076}{length:45}
+{id:8540}{text:梦想似乎总是，在天空的远方，很害怕我达不到，但我一直不停的追逐着，因为是自己的故事，所以不想放弃。}{type:j}{from:}{from_who:Kiroro}{creator:smallxu}{created_at:1629301371}{length:49}
+{id:8550}{text:如果有天我们湮没在人潮之中，庸碌一生，那是因为我们没有努力要活得更丰盛。}{type:j}{from:黄碧云}{from_who:黄碧云}{creator:Clouder}{created_at:1634137289}{length:36}
+{id:8551}{text:对未来真正的慷慨，是把一切都献给现在。}{type:j}{from:加缪}{from_who:加缪}{creator:Clouder}{created_at:1634137416}{length:19}
+{id:8561}{text:这个世界的麻烦就是傻瓜非常自信，而智者总是充满疑虑。}{type:j}{from:罗素}{from_who:罗素}{creator:Clouder}{created_at:1634137535}{length:27}
+{id:8575}{text:生まれた意味などなかった。}{type:j}{from:まふまふ}{from_who:まふまふ}{creator:TR-0}{created_at:1638374875}{length:13}
+{id:8577}{text:可总是有人来不及证明，就已被看腻。}{type:j}{from:狐狸}{from_who:薛之谦}{creator:iron}{created_at:1638522093}{length:17}
+{id:8595}{text:三个字，只能说给自己听。}{type:j}{from:错位时空}{from_who:周仁}{creator:异想之旅}{created_at:1643793833}{length:12}
+{id:8597}{text:愿你每一步，坦荡无憾；愿你未来路，自信从容。}{type:j}{from:朱则光}{from_who:朱则光}{creator:异想之旅}{created_at:1643794142}{length:22}
+{id:8598}{text:上天啊，你千万不要偷偷告诉他，在无数夜深人静的夜晚，我依旧在想他。}{type:j}{from:阿拉斯加海湾}{from_who:李康宁/菲道尔}{creator:异想之旅}{created_at:1643794021}{length:33}
+{id:8601}{text:我的青春年华尽情挥洒，都要感谢你。}{type:j}{from:相遇•金家岭}{from_who:王子涵}{creator:异想之旅}{created_at:1643792529}{length:17}
+{id:8604}{text:少年的中国没有学校，她的学校是大地的山川；少年的中国没有老师，她的老师是大地的人民。}{type:j}{from:少年中国}{from_who:蒋勋}{creator:wxwade}{created_at:1643337657}{length:42}
+{id:8611}{text:每天和别人暧昧不清，有意思吗？}{type:j}{from:华师一留言墙}{from_who:小苏不酥}{creator:小苏不酥}{created_at:1643175597}{length:15}
+{id:8615}{text:你的名字无人知晓，你的功绩永世长存。}{type:j}{from:莫斯科烈士纪念碑}{from_who:null}{creator:sorry哒}{created_at:1643077112}{length:18}
+{id:8617}{text:不要渴望ta人的改变，记住你是唯一的！}{type:j}{from:冥想}{from_who:心殇}{creator:零点正少}{created_at:1634348259}{length:19}
+{id:8627}{text:一旦开始，便难以回头。}{type:j}{from:Oxytocin}{from_who:Billie Eilish}{creator:jigeshuohua}{created_at:1636378255}{length:11}
+{id:8628}{text:对你死心，是迟早的事。}{type:j}{from:ilomilo}{from_who:Billie Eilish}{creator:jigeshuohua}{created_at:1636378314}{length:11}
+{id:8629}{text:如果不想受伤，请远离带来伤害的所有事物！}{type:j}{from:冥想}{from_who:心殇}{creator:零点正少}{created_at:1634348078}{length:20}
+{id:8642}{text:爱情没有那么多借口，如果最终没能在一起，只能说明爱的不够。}{type:j}{from:恋恋笔记本}{from_who:恋恋笔记本}{creator:陈先生}{created_at:1640626481}{length:29}
+{id:8644}{text:原来世界最远不是距离而是昨天。}{type:j}{from:倒流时间}{from_who:邓紫棋}{creator:陈先生}{created_at:1640579651}{length:15}
+{id:8682}{text:春天来得很慢，春天才有浪漫。}{type:j}{from:网络}{from_who:null}{creator:Tomoe}{created_at:1640162815}{length:14}
+{id:8702}{text:生来即轻，还时亦净。}{type:j}{from:刘学州}{from_who:刘学州}{creator:赵彤刚}{created_at:1644386210}{length:10}
+{id:8708}{text:新欢是良药，而我选择了时间。}{type:j}{from:九望}{from_who:九望}{creator:九望}{created_at:1645087525}{length:14}
+{id:8712}{text:经历这个你，活成这个我，细数自己。}{type:j}{from:年轮说}{from_who:吴青峰}{creator:鱼鱼}{created_at:1646190588}{length:17}
+{id:8715}{text:何谓恒久？于祖祖辈辈，不过文化传承。}{type:j}{from:人民日报}{from_who:2021广西北海中考作文}{creator:SevenWuying}{created_at:1646491762}{length:18}
+{id:8716}{text:引领天下之情怀，引领创新之力量，引领艺趣之格调。}{type:j}{from:嘉兴一中实验学校校训}{from_who:嘉兴一中实验学校}{creator:SevenWuying}{created_at:1646491857}{length:24}
+{id:8767}{text:金钱一旦作响，坏话随之戛然而止。}{type:j}{from:家训}{from_who:罗斯柴尔德家族}{creator:安安}{created_at:1651057124}{length:16}
+{id:8787}{text:Time to never hold our love.}{type:j}{from:Ghost Love Score}{from_who:Nightwish}{creator:RavenTKF}{created_at:1650627283}{length:28}
+{id:8790}{text:人类不能再生活在恐惧中。没有东西能保护我们，我们必须保护我们自己。}{type:j}{from:SCP基金会}{from_who:“The Administrator”}{creator:Epsilon He}{created_at:1650695932}{length:33}
+{id:8861}{text:我妄想能改变命运，可终究不离此痛。}{type:j}{from:不离此痛(我的世界地图)}{from_who:夜间闪烁工作室}{creator:wcz1459}{created_at:1670581237}{length:17}
+{id:8877}{text:思想比武器更有威力。我们是绝不会给敌人任何武器的。难道我们会让敌人有思想吗?}{type:j}{from:斯大林}{from_who:null}{creator:Rusmere}{created_at:1663514508}{length:38}
+{id:8883}{text:He said one day you'll leave this world behind , So live a life you will remember.}{type:j}{from:The Nights}{from_who:Avicii}{creator:zFlqw}{created_at:1664416254}{length:82}
+{id:8887}{text:时间是片海，你我皆游人。}{type:j}{from:你要好好的}{from_who:苑子文}{creator:Mai}{created_at:1664183035}{length:12}
+{id:8888}{text:无论现在多么的不开心，你要相信，明天会比今天更好。}{type:j}{from:日本}{from_who:东野圭吾}{creator:天骐}{created_at:1664184655}{length:25}
+{id:9032}{text:From the river to the sea, Palestine will be free！}{type:j}{from:佚名}{from_who:null}{creator:朝尘}{created_at:1721969287}{length:50}
+{id:9033}{text:从河流到大海，巴勒斯坦将获得自由。}{type:j}{from:佚名}{from_who:null}{creator:朝尘}{created_at:1721969312}{length:17}
