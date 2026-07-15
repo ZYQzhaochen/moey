@@ -57,6 +57,21 @@ if (isset($_POST['action'])) {
         }
         file_put_contents($links_file, implode(PHP_EOL, $new_lines) . PHP_EOL);
         $msg = '<span style="color:#27ae60;">友链已删除！</span>';
+	    } elseif ($action === 'batch_delete') {
+	        $names = json_decode($_POST['batch_ids'], true);
+	        $lines = file($links_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	        $new_lines = array();
+	        $name_set = array_flip($names);
+	        foreach ($lines as $line) {
+	            if ($line[0] === '{') {
+	                preg_match("/\{name:(.*?)\}/", $line, $m);
+	                if (isset($m[1]) && isset($name_set[$m[1]])) continue;
+	            }
+	            $new_lines[] = $line;
+	        }
+	        file_put_contents($links_file, implode(PHP_EOL, $new_lines) . PHP_EOL);
+	        $msg = '<span style="color:#27ae60;">已批量删除 ' . count($names) . ' 条友链</span>';
+
     } elseif ($action === 'get_edit') {
         $edit_name = $_POST['edit_name'];
         $lines = file($links_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
@@ -116,6 +131,9 @@ if (file_exists($links_file)) {
         .inline-form { display:inline; }
         .back { text-align:center; margin-top:16px; }
         .back a { color:#999; text-decoration:none; font-size:0.85rem; }
+        #select-all,.cb-item{appearance:none;-webkit-appearance:none;width:16px;height:16px;border:2px solid #ccc;border-radius:3px;background:#fff;cursor:pointer;vertical-align:middle;position:relative;margin:0;}
+        #select-all:checked,.cb-item:checked{background-color:#FF69B4;border-color:#FF69B4;background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Cpath fill=%27%23fff%27 d=%27M6 11L2.5 7.5 3.9 6.1 6 8.2 12.1 2.1 13.5 3.5z%27/%3E%3C/svg%3E");background-size:contain;}
+        .batch-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
     </style>
 </head>
 <body>
@@ -148,13 +166,13 @@ if (file_exists($links_file)) {
 
     <!-- 列表 -->
     <div class="box" style="overflow-x:auto;">
-        <table>
-            <thead><tr><th>Logo</th><th>站点名</th><th>链接</th><th>简介</th><th>操作</th></tr></thead>
+        <div class="batch-bar"><span id="selected-count" style="color:#FF69B4;font-weight:bold;font-size:0.9rem;"></span><form id="batch-form" method="post" onsubmit="return submitBatch()"><input type="hidden" name="action" id="batch-action" value=""><input type="hidden" name="batch_ids" id="batch-ids-input" value=""><button type="submit" data-action="batch_delete" class="btn btn-red" style="display:none;">批量删除</button></form></div><table>
+            <thead><tr><th style="width:30px;"><input type="checkbox" id="select-all" title="全选"></th><th>Logo</th><th>站点名</th><th>链接</th><th>简介</th><th>操作</th></tr></thead>
             <tbody>
                 <?php if (count($items) > 0): ?>
                     <?php foreach ($items as $item): ?>
                         <tr>
-                            <td><img src="<?php echo htmlspecialchars($item['logo']); ?>" class="logo-img" onerror="this.style.display='none'" alt=""></td>
+                            <td><input type="checkbox" class="cb-item" value="<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>"></td><td><img src="<?php echo htmlspecialchars($item['logo']); ?>" class="logo-img" onerror="this.style.display='none'" alt=""></td>
                             <td><?php echo htmlspecialchars($item['name']); ?></td>
                             <td><a href="<?php echo htmlspecialchars($item['link']); ?>" target="_blank" style="color:#3498db;"><?php echo htmlspecialchars($item['link']); ?></a></td>
                             <td><?php echo htmlspecialchars($item['about']); ?></td>
@@ -162,7 +180,7 @@ if (file_exists($links_file)) {
                                 <form method="post" class="inline-form">
                                     <input type="hidden" name="action" value="get_edit">
                                     <input type="hidden" name="edit_name" value="<?php echo htmlspecialchars($item['name']); ?>">
-                                    <button type="submit" class="btn btn-green" style="padding:4px 10px;">编辑</button>
+                                    <button type="submit" class="btn btn-green btn-edit" style="padding:4px 10px;">编辑</button>
                                 </form>
                                 <form method="post" class="inline-form" onsubmit="return confirm('确定删除友链「<?php echo htmlspecialchars($item['name']); ?>」？');">
                                     <input type="hidden" name="action" value="delete">
@@ -173,7 +191,7 @@ if (file_exists($links_file)) {
                         </tr>
                     <?php endforeach; ?>
                 <?php else: ?>
-                    <tr><td colspan="5" style="text-align:center;color:#999;padding:30px;">暂无友链</td></tr>
+                    <tr><td colspan="6" style="text-align:center;color:#999;padding:30px;">暂无友链</td></tr>
                 <?php endif; ?>
             </tbody>
         </table>
@@ -181,5 +199,41 @@ if (file_exists($links_file)) {
 
     <p class="back"><a href="index.php">← 返回管理面板</a> | <a href="logout.php">退出登录</a></p>
 </div>
+<script>
+(function(){
+var master=document.getElementById("select-all");
+var items=document.querySelectorAll(".cb-item");
+var cnt=document.getElementById("selected-count");
+var form=document.getElementById("batch-form");
+var actionInput=document.getElementById("batch-action");
+var idsInput=document.getElementById("batch-ids-input");
+var editBtns=document.querySelectorAll(".btn-edit");
+function getChecked(){return document.querySelectorAll(".cb-item:checked");}
+function updateUI(){
+var checked=getChecked(),n=checked.length;
+cnt.textContent=n>0?"已选择 "+n+" 项":"";
+var btns=form.querySelectorAll('button[type="submit"]');
+btns.forEach(function(b){b.style.display=n>0?"":"none";});
+editBtns.forEach(function(b){b.style.display=n>0?"none":"";});
+}
+master.addEventListener("change",function(){
+items.forEach(function(cb){cb.checked=master.checked;});
+updateUI();
+});
+items.forEach(function(cb){cb.addEventListener("change",updateUI);});
+window.submitBatch=function(){
+var checked=getChecked();
+if(checked.length===0){alert("请先选择要操作的项");return false;}
+var clicked=document.activeElement;
+var action=clicked.getAttribute("data-action")||"batch_delete";
+if(!confirm("确定批量删除 "+checked.length+" 项？此操作不可撤销。"))return false;
+actionInput.value=action;
+var vals=[];
+checked.forEach(function(cb){vals.push(cb.value);});
+idsInput.value=JSON.stringify(vals);
+return true;
+};
+})();
+</script>
 </body>
 </html>

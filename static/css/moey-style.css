@@ -1,23 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
-}
-
-@font-face{
-font-family:'kat';
-src:url('../font/kat.woff2');
-}
-@font-face{
-font-family:'sq';
-src: url('../font/sq.woff2');
-}
-.ttf-kat{
-font-family:kat;
-}
-.ttf-sq{
-font-family:sq;
 }
 
 body{

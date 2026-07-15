@@ -1,176 +1,83 @@
-<?php 
-header('Content-type:text/html; charset=utf-8');
-require"../config/config.php";
+<?php
+$base_path = '../';
+$home_url = '../';
+$page_prefix = '';
+$page_title = '一言投稿 | 萌言Moey';
+$page_heading = '一言语句投稿';
+$page_keywords = '萌言,萌言网,moey,一言投稿,api,萌云网络';
+$page_description = '欢迎投稿各种感动您的语句。您可以投稿生活或网上冲浪中让您产生思考的语句，也可以投稿自己写的一段话。投稿成功后将在人工审核后上线！';
+$extra_head_html = '<style>
+.container {width:100%max-width:500px;margin:0 auto;padding:12px;}
+.t {color:#808080;font-family:dk;font-size:1.2rem;}
+label{color:#606060;font-family:dk;}
+ul{color:#606060;font-family:dk;}
+textarea {resize:vertical;min-height:60px;width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;margin-bottom:6px;cursor:url(\'../images/text.cur\'),text;}
+input {resize:vertical;width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;margin-bottom:6px;cursor:url(\'../images/text.cur\'),text;}
+input[type="submit"] {background-color:#FF69B4;color:#fff;border:none;padding:6px;border-radius:4px;width:100%;}
+input[type="submit"]:hover {background-color:#FF1493;cursor:url(\'../images/pointer.cur\'),pointer;}
+select {display:block;background-color:white;width:100%;padding:6px;margin-bottom:8px;border:1px solid #ccc;border-radius:4px;cursor:url(\'../images/default.cur\'),default;}
+</style>';
+require '../includes/init.php';
+require '../includes/head.php';
 ?>
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1,maximum-scale=1,maximum-scale=1, user-scalable=no" name="viewport">
-	<title>一言投稿 | 萌言Moey</title>
-	<meta name="robots" content="index,follow">
-	<meta name="keywords" content="萌言,萌言网,moey,一言投稿,api,萌云网络">
-	<meta name="description" content="您可以在此投稿各种生活或者网上冲浪中感动您的、让您产生思考的语句，也可以投稿您自己写的一段话，中、英、日文均可，字数上限50。投稿成功后，您的稿件将在人工审核后上线，您的投稿将帮助我们做得更好！">
-	<link rel="stylesheet" href="../static/css/reset.css">
-	<link rel="stylesheet" href="../static/css/lanren.css">
-	<link rel="stylesheet" href="../static/css/ty.css">
-	<link rel="Shortcut Icon"href="../favicon.ico">
-	<style>
-	.container {
-		width:100%
-		max-width:500px;
-		margin:0 auto;
-		padding:12px;
-	}
-	.t {
-		color:#808080;
-		font-family:dk;
-		font-size:1.2rem;
-	}
-	label{
-		color:#606060;
-		font-family:dk;
-	}
-	ul{
-		color:#606060;
-		font-family:dk;
-	}
-	textarea {
-		resize:vertical;
-		min-height:60px;
-		width:100%;
-		padding:6px;
-		border:1px solid #ccc;
-		border-radius:4px;
-		margin-bottom:6px;
-		cursor:url('../images/text.cur'),text;
-	}
-	input {
-		resize:vertical;
-		width:100%;
-		padding:6px;
-		border:1px solid #ccc;
-		border-radius:4px;
-		margin-bottom:6px;
-		cursor:url('../images/text.cur'),text;
-	}
-	input[type="submit"] {
-		background-color:#FF69B4;
-		color:#fff;
-		border:none;
-		padding:6px;
-		border-radius:4px;
-		width:100%;
-	}
-	input[type="submit"]:hover {
-		background-color:#FF1493;
-		cursor:url('../images/pointer.cur'),pointer;
-	}
-	select {
-		display:block;
-		background-color:white;
-		width:100%;
-		padding:6px;
-		margin-bottom:8px;
-		border:1px solid #ccc;
-		border-radius:4px;
-		cursor:url('../images/default.cur'),default;
-	}
-	</style>
-</head>
 <body>
-	<header class="header">
-		<span class="btn-slide-bar"></span>
-		<h1 class="page-title">一言语句投稿</h1>
-	</header>
-	<section class="wraper-page">
-	<script src="../static/js/yinghua.js"></script>
-	<div style="background:rgba(255,255,255,0.6);border:2px dashed #C0C0C0;min-height:50px;font-size:16px;line-height:1.5;margin: 5px auto;border-radius:0.8em;padding:10px;max-width:1000px;">
-		<div class="bt"><font color="#FF69B4">#</font> 欢迎</div>
-		<p>欢迎您进行台词投稿。<br>您可以投稿各种生活或者网上冲浪中感动您的、让您产生思考的语句，也可以投稿您自己写的一段话，中、英、日文均可，字数上限50。<br>投稿成功后，您的稿件将在人工审核后上线。通常，稿件上线后无法删除、修改，如果您执意删除、修改，请将您的投稿证明(如提交者id)及相应句子发送邮件至<a href="mailto:zc@moey.cn">zc@moey.cn</a>，我们尊重您的一切权利</p>
-		<div class="bt"><font color="#FF69B4">#</font> 投稿</div>
-		<form action="sub_y.php" method="post">
-			<fieldset style="background:rgba(255,255,255,0.5);border:2px double #606060;border-radius:10px;">
-				<legend><div style="font-family:dk;color:#606060;">在线投稿</div></legend>
-				<div class="container">
-						<label>句子:</label><br>
-						<textarea name="text" placeholder="必填，输入您想提交的句子，句尾请注意添加标点符号" required></textarea>
-						<label>出处:</label>
-						<input type="text" name="from" placeholder="必填，输入句子的来源/出处，如:紫罗兰永恒花园" required />
-						<label>作者:</label>
-						<input type="text" name="from_who" placeholder="选填，输入句子的作者，如:薇尔莉特">
-						<div class="t">(此项选填，如无法考证句子作者可留空)</div>
-						<label>提交者:</label>
-						<input type="text" name="creator" placeholder="必填，输入您的昵称，作为提交凭证"required />
-						<label>句子类型:</label>
-						<select name="form">
-							<option value="a">a 动画 (Anime)</option>
-							<option value="b">b 漫画 (Comic)</option>
-							<option value="c">c 游戏 (Game)</option>
-							<option value="d">d 文学 (literature)</option>
-							<option value="e">e 原创 (Myself)</option>
-							<option value="f">f 来自网络 (Internet)</option>
-							<option value="g">g 影视 (Movies)</option>
-							<option value="h">h 诗词 (Poem)</option>
-							<option value="i">i 哲学 (Philosophy)</option>
-							<option value="j">j 其他 (Other)</option>
-						</select>
-						<div class="t">☟填写完毕？点此提交☟</div>
-					<input type="submit" name="upyan" value="Biu～发射！">
-				</ul>
-				</div>
-			</fieldset>
-		</form>
-		
-		<p>➥想要其他投稿方式？您可以给我们<a href="mailto:zc@moey.cn">发送邮件</a>进行批量投稿。</p>
-		<p>请您在邮件中包含以下内容：</p>
-		<ul>
-			<li>正文</li>
-			<li>句子出处(也可以为“原创”/“网络”等……)</li>
-			<li>句子作者(可选填)</li>
-			<li>您的昵称(我们会将您的昵称记录在这条语句的“提交者”中，也可选择匿名)</li>
-		</ul>
-		<p>萌言因你更美好！＼＼\\٩( 'ω' )و //／／</p>
-		<hr style="height:2px;border:none;border-top:2px dotted #FF69B4;" />
-		<div class="bt"><font color="#FF69B4">#</font> 注意</div>
-		<p>调用本站服务或在本站进行投稿，代表您已仔细阅读并同意<a href="tiaokuan.html">使用条款</a>。</p>
-	</div>
-	<center><p style="animation: shake 1s;animation-iteration-count: infinite;">¯\_(ツ)_/¯</p></center>
-	<center><p>萌言勉强运行了<span id="momk"></span></p></center>
-	<div id="rin-bg"></div>
-	<script src="../static/js/ty.js"></script>
-	</section>
-	<footer class="footer"><?php echo $foot ?></footer>
-	<section class="slide-bar">
-		<ul>
-			<li class="logo-li"><center><div class="ttf-kat">萌言Moey</div></center></li>
-			<li><a href="../" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/home.svg"> 首页</a></li>
-			<li><a href="about.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/about.svg"> 关于萌言</a></li>
-			<li><a href="links.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/link.svg"> 友情链接</a></li>
-		<li class="sec-title">API接口：</li>
-			<li><a href="yapi-help.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/yan.svg"> 一言语句</a></li>
-			<li><a href="wpapi-help.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/wp.svg"> 二次元图片</a></li>
-		<li class="sec-title">投稿：</li>
-			<li><a href="submit_y.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/submit.svg"> 一言语句</a></li>
-			<li><a href="submit_wp.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/submit.svg"> 二次元图片</a></li>
-		<li class="sec-title">More：</li>
-			<li><a href="chat.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/chat.svg"> 留言板</a></li>
-			<li><a href="support.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/donate.svg"> 支持我们</a></li>
-			<li><a href="infringment.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/su.svg"> 侵权申诉</a></li>
-			<li><a href="open.php" target="_top" class="sa"><img style="width:15px;height:15px" src="../images/ky.svg"> 开源</a></li>
-		<li><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力" class="sa"><img style="width:15px;height:15px" src="../images/tl.svg"> 「开往」</a></li>
-		</ul>
-	</section>
-	<script>
-		document.addEventListener("DOMContentLoaded", function(){
-			(function(){
-				var _btn  = document.querySelector(".btn-slide-bar"),
-					_body = document.querySelector("body");
-					_btn.onclick = function(){
-						_body.classList.toggle("active");
-					}
-			})(window)
-		},false);
-	</script>
+<?php require '../includes/header.php'; ?>
+<section class="wraper-page">
+<script src="../static/js/yinghua.js"></script>
+<div style="background:rgba(255,255,255,0.6);border:2px dashed #C0C0C0;min-height:50px;font-size:16px;line-height:1.5;margin: 5px auto;border-radius:0.8em;padding:10px;max-width:1000px;">
+    <div class="bt"><font color="#FF69B4">#</font> 欢迎</div>
+    <p>欢迎您进行台词投稿。<br>您可以投稿各种生活或者网上冲浪中感动您的、让您产生思考的语句，也可以投稿您自己写的一段话，中、英、日文均可，字数上限50。<br>投稿成功后，您的稿件将在人工审核后上线。稿件上线后如需删除、修改，请将相关信息发件至<a href="mailto:zc@moey.cn">zc@moey.cn</a>，我们将第一时间处理</p>
+    <div class="bt"><font color="#FF69B4">#</font> 投稿</div>
+    <form action="sub_y.php" method="post">
+        <fieldset style="background:rgba(255,255,255,0.5);border:2px double #606060;border-radius:10px;">
+            <legend><div style="font-family:dk;color:#606060;">在线投稿</div></legend>
+            <div class="container">
+                    <label>句子:</label><br>
+                    <textarea name="text" placeholder="必填，输入您想提交的句子，句尾请注意添加标点符号" required></textarea>
+                    <label>出处:</label>
+                    <input type="text" name="from" placeholder="必填，输入句子的来源/出处，如:紫罗兰永恒花园" required />
+                    <label>作者:</label>
+                    <input type="text" name="from_who" placeholder="选填，输入句子的作者，如:薇尔莉特">
+                    <div class="t">(此项选填，如无法考证句子作者可留空)</div>
+                    <label>提交者:</label>
+                    <input type="text" name="creator" placeholder="必填，输入您的昵称，作为提交凭证"required />
+                    <label>句子类型:</label>
+                    <select name="form">
+                        <option value="a">a 动画 (Anime)</option>
+                        <option value="b">b 漫画 (Comic)</option>
+                        <option value="c">c 游戏 (Game)</option>
+                        <option value="d">d 文学 (literature)</option>
+                        <option value="e">e 原创 (Myself)</option>
+                        <option value="f">f 来自网络 (Internet)</option>
+                        <option value="g">g 影视 (Movies)</option>
+                        <option value="h">h 诗词 (Poem)</option>
+                        <option value="i">i 哲学 (Philosophy)</option>
+                        <option value="j">j 其他 (Other)</option>
+                    </select>
+                    <div class="t">☟填写完毕？点此提交☟</div>
+                <input type="submit" name="upyan" value="Biu～发射！">
+            </div>
+        </fieldset>
+    </form>
+    <p>➥想要其他投稿方式？您可以给我们<a href="mailto:zc@moey.cn">发送邮件</a>进行批量投稿。</p>
+    <p>请您在邮件中包含以下内容：</p>
+    <ul>
+        <li>正文</li>
+        <li>句子出处(也可以为"原创"/"网络"等……)</li>
+        <li>句子作者(可选填)</li>
+        <li>您的昵称(我们会将您的昵称记录在这条语句的"提交者"中，也可选择匿名)</li>
+    </ul>
+    <p>萌言因你更美好！＼＼\\٩( 'ω' )و //／／</p>
+    <hr style="height:2px;border:none;border-top:2px dotted #FF69B4;" />
+    <div class="bt"><font color="#FF69B4">#</font> 注意</div>
+    <p>调用本站服务或在本站进行投稿，代表您已仔细阅读并同意<a href="tiaokuan.html">使用条款</a>。</p>
+</div>
+<center><p style="animation: shake 1s;animation-iteration-count: infinite;">¯\_(ツ)_/¯</p></center>
+<center><p>萌言勉强运行了<span id="momk"></span></p></center>
+<div id="rin-bg"></div>
+<script src="../static/js/ty.js"></script>
+</section>
+<?php require '../includes/footer.php'; ?>
+<?php require '../includes/sidebar.php'; ?>
 </body>
 </html>

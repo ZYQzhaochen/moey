@@ -38,6 +38,22 @@ if (isset($_POST['remove_ip'])) {
     }
 }
 
+
+// 批量解除封禁
+if (isset($_POST['action']) && $_POST['action'] === 'batch_unban') {
+    $ips_to_remove = json_decode($_POST['batch_ids'], true);
+    if (file_exists($ban_path) && !empty($ips_to_remove)) {
+        $banned = file($ban_path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $ip_set = array_flip($ips_to_remove);
+        $new_list = array();
+        foreach ($banned as $ip_line) {
+            if (!isset($ip_set[trim($ip_line)])) $new_list[] = trim($ip_line);
+        }
+        file_put_contents($ban_path, implode(PHP_EOL, $new_list) . (count($new_list) > 0 ? PHP_EOL : ''));
+        $msg = '<span style="color:#27ae60;">已批量解除封禁 ' . count($ips_to_remove) . ' 个 IP</span>';
+    }
+}
+
 // 读取封禁列表
 $banned_ips = array();
 if (file_exists($ban_path)) {
@@ -97,6 +113,9 @@ $total_pages = ceil($total / $per_page);
         .empty { color:#999; text-align:center; padding:30px; }
         .back { text-align:center; margin-top:16px; }
         .back a { color:#999; text-decoration:none; font-size:0.85rem; }
+        #select-all,.cb-item{appearance:none;-webkit-appearance:none;width:16px;height:16px;border:2px solid #ccc;border-radius:3px;background:#fff;cursor:pointer;vertical-align:middle;position:relative;margin:0;}
+        #select-all:checked,.cb-item:checked{background-color:#FF69B4;border-color:#FF69B4;background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Cpath fill=%27%23fff%27 d=%27M6 11L2.5 7.5 3.9 6.1 6 8.2 12.1 2.1 13.5 3.5z%27/%3E%3C/svg%3E");background-size:contain;}
+        .batch-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
     </style>
 </head>
 <body>
@@ -118,13 +137,13 @@ $total_pages = ceil($total / $per_page);
             <button type="submit" class="btn btn-pink" style="padding:5px 14px;font-size:0.8rem;">搜索</button>
             <?php if ($search !== ''): ?><a href="ban.php" class="btn btn-gray" style="padding:5px 12px;font-size:0.8rem;">清除</a><?php endif; ?>
         </form>
-        <table>
-            <thead><tr><th>序号</th><th>IP 地址</th><th>操作</th></tr></thead>
+        <div class="batch-bar"><span id="selected-count" style="color:#FF69B4;font-weight:bold;font-size:0.9rem;"></span><form id="batch-form" method="post" onsubmit="return submitBatch()"><input type="hidden" name="action" id="batch-action" value=""><input type="hidden" name="batch_ids" id="batch-ids-input" value=""><button type="submit" data-action="batch_unban" class="btn btn-red" style="display:none;">批量解封</button></form></div><table>
+            <thead><tr><th style="width:30px;"><input type="checkbox" id="select-all" title="全选"></th><th>序号</th><th>IP 地址</th><th>操作</th></tr></thead>
             <tbody>
                 <?php if (count($ips_page) > 0): ?>
                     <?php foreach ($ips_page as $i => $ip): ?>
                         <tr>
-                            <td><?php echo $offset + $i + 1; ?></td>
+                            <td><input type="checkbox" class="cb-item" value="<?php echo htmlspecialchars(trim($ip)); ?>"></td><td><?php echo $offset + $i + 1; ?></td>
                             <td class="mono"><?php echo htmlspecialchars(trim($ip)); ?></td>
                             <td>
                                 <form method="post" class="inline-form" onsubmit="return confirm('确定解除对 <?php echo htmlspecialchars(trim($ip)); ?> 的封禁？');">
@@ -135,7 +154,7 @@ $total_pages = ceil($total / $per_page);
                         </tr>
                     <?php endforeach; ?>
                 <?php else: ?>
-                    <tr><td colspan="3" class="empty">暂无封禁 IP</td></tr>
+                    <tr><td colspan="4" class="empty">暂无封禁 IP</td></tr>
                 <?php endif; ?>
             </tbody>
         </table>
@@ -151,5 +170,39 @@ $total_pages = ceil($total / $per_page);
 
     <p class="back"><a href="index.php">← 返回管理面板</a> | <a href="logout.php">退出登录</a></p>
 </div>
+<script>
+(function(){
+var master=document.getElementById("select-all");
+var items=document.querySelectorAll(".cb-item");
+var cnt=document.getElementById("selected-count");
+var form=document.getElementById("batch-form");
+var actionInput=document.getElementById("batch-action");
+var idsInput=document.getElementById("batch-ids-input");
+function getChecked(){return document.querySelectorAll(".cb-item:checked");}
+function updateUI(){
+var checked=getChecked(),n=checked.length;
+cnt.textContent=n>0?"已选择 "+n+" 个IP":"";
+var btns=form.querySelectorAll('button[type="submit"]');
+btns.forEach(function(b){b.style.display=n>0?"":"none";});
+}
+master.addEventListener("change",function(){
+items.forEach(function(cb){cb.checked=master.checked;});
+updateUI();
+});
+items.forEach(function(cb){cb.addEventListener("change",updateUI);});
+window.submitBatch=function(){
+var checked=getChecked();
+if(checked.length===0){alert("请先选择要操作的IP");return false;}
+var clicked=document.activeElement;
+var action=clicked.getAttribute("data-action")||"batch_unban";
+if(!confirm("确定批量解封 "+checked.length+" 个IP？"))return false;
+actionInput.value=action;
+var vals=[];
+checked.forEach(function(cb){vals.push(cb.value);});
+idsInput.value=JSON.stringify(vals);
+return true;
+};
+})();
+</script>
 </body>
 </html>

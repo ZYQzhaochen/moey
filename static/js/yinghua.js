@@ -164,6 +164,10 @@ function stopp() {
 		startSakura();
 	}
 }
+document.addEventListener('DOMContentLoaded',function(){
+var b=document.getElementById('rin-bg');
+if(b)b.style.backgroundImage="url('https://dmoe.cc/random.php?_="+Math.floor(Date.now()/60000)+"')";
+});
 		
 		
 

@@ -8,6 +8,21 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) die('数据库连接失败: ' . $conn->connect_error);
 $conn->query("SET NAMES utf8mb4");
 
+// ===== 敏感词设置 =====
+$sw_file = __DIR__ . '/sensitive_words.txt';
+$sw_flag = __DIR__ . '/sensitive_filter_on.txt';
+
+if (isset($_POST['save_sw'])) {
+	$enabled = isset($_POST['sw_enabled']) ? '1' : '0';
+	file_put_contents($sw_flag, $enabled);
+	$raw = str_replace("\r", "\n", trim($_POST['sw_words']));
+	$lines = array_values(array_filter(array_map('trim', explode("\n", $raw)), function($l){return $l!=='';}));
+	file_put_contents($sw_file, implode(PHP_EOL, $lines) . (count($lines) > 0 ? PHP_EOL : ''));
+	$msg = '<span style="color:#27ae60;">敏感词设置已保存（' . count($lines) . ' 个词）</span>';
+}
+$sw_enabled = file_exists($sw_flag) && file_get_contents($sw_flag) === '1';
+$sw_words_content = file_exists($sw_file) ? file_get_contents($sw_file) : '';
+
 // ===== 处理 POST =====
 if (isset($_POST['action'])) {
     $action = $_POST['action'];
@@ -34,6 +49,29 @@ if (isset($_POST['action'])) {
             }
             $msg = '<span style="color:#27ae60;">IP ' . $ip . ' 已加入封禁列表</span>';
         }
+    } elseif ($action === 'batch_delete') {
+        $ids = json_decode($_POST['batch_ids'], true);
+        $ids = array_filter(array_map('intval', $ids), function($v){return $v>0;});
+        if (!empty($ids)) {
+            $conn->query("DELETE FROM messages WHERE id IN (" . implode(',', $ids) . ")");
+            $msg = '<span style="color:#27ae60;">已批量删除 ' . $conn->affected_rows . ' 条留言</span>';
+        }
+    } elseif ($action === 'batch_ban_ip') {
+        $ids = json_decode($_POST['batch_ids'], true);
+        $ids = array_filter(array_map('intval', $ids), function($v){return $v>0;});
+        $ips = array();
+        if (!empty($ids)) {
+            $r2 = $conn->query("SELECT DISTINCT ip_address FROM messages WHERE id IN (" . implode(',', $ids) . ")");
+            while ($row2 = $r2->fetch_assoc()) $ips[] = $row2['ip_address'];
+        }
+        $ban_path = __DIR__ . "/../config/ban.txt";
+        $banned = file_exists($ban_path) ? file($ban_path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) : array();
+        $added = 0;
+        foreach ($ips as $ip2) {
+            if ($ip2 !== '' && !in_array($ip2, $banned)) { $banned[] = $ip2; $added++; }
+        }
+        if ($added > 0) file_put_contents($ban_path, implode(PHP_EOL, $banned) . PHP_EOL);
+        $msg = '<span style="color:#27ae60;">已封禁 ' . $added . ' 个IP（共 ' . count($ips) . ' 个）</span>';
     }
 }
 
@@ -105,12 +143,42 @@ if (isset($_POST['action']) && $_POST['action'] === 'get_edit') {
         .back { text-align:center; margin-top:16px; }
         .back a { color:#999; text-decoration:none; font-size:0.85rem; }
         @media (max-width:768px) { table { font-size:0.75rem; } .text-col { max-width:100px; } }
+        /* Toggle switch */
+        .switch { position:relative; display:inline-block; width:44px; height:24px; vertical-align:middle; margin:0 8px; }
+        .switch input { opacity:0; width:0; height:0; }
+        .switch .slider { position:absolute; cursor:pointer; top:0; left:0; right:0; bottom:0; background:#ccc; border-radius:24px; transition:.3s; }
+        .switch .slider:before { content:""; position:absolute; height:18px; width:18px; left:3px; bottom:3px; background:#fff; border-radius:50%; transition:.3s; }
+        .switch input:checked + .slider { background:#FF69B4; }
+        .switch input:checked + .slider:before { transform:translateX(20px); }
+        .sw-status { font-size:0.85rem; vertical-align:middle; }
+        .sw-status.on { color:#27ae60; }
+        .sw-status.off { color:#999; }
+        /* Batch ops */
+        #select-all,.cb-item{appearance:none;-webkit-appearance:none;width:16px;height:16px;border:2px solid #ccc;border-radius:3px;background:#fff;cursor:pointer;vertical-align:middle;position:relative;margin:0;}
+        #select-all:checked,.cb-item:checked{background-color:#FF69B4;border-color:#FF69B4;background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Cpath fill=%27%23fff%27 d=%27M6 11L2.5 7.5 3.9 6.1 6 8.2 12.1 2.1 13.5 3.5z%27/%3E%3C/svg%3E");background-size:contain;}
+        .batch-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
     </style>
 </head>
 <body>
 <div class="wrap">
     <h1>留言管理（共 <?php echo $total; ?> 条）</h1>
     <?php if ($msg) echo '<p class="msg">' . $msg . '</p>'; ?>
+
+    <!-- 敏感词过滤 -->
+    <div class="box">
+        <form method="post">
+        <input type="hidden" name="save_sw" value="1">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+            <h2 style="margin-bottom:0;">敏感词过滤</h2>
+            <div>
+                <label class="switch"><input type="checkbox" name="sw_enabled" <?php echo $sw_enabled?'checked':''; ?> onchange="this.form.submit()"><span class="slider"></span></label>
+                <span class="sw-status<?php echo $sw_enabled?' on':' off'; ?>"><?php echo $sw_enabled?'已开启':'已关闭'; ?></span>
+            </div>
+        </div>
+        <div style="margin-top:10px;<?php echo $sw_enabled?'':'display:none;'; ?>"><textarea name="sw_words" rows="6" style="width:100%;min-height:100px;resize:vertical;padding:8px;border:1px solid #ddd;border-radius:4px;font-size:0.85rem;font-family:monospace;" placeholder="每行一个敏感词"><?php echo htmlspecialchars($sw_words_content); ?></textarea></div>
+        <button type="submit" class="btn btn-pink" style="margin-top:6px;<?php echo $sw_enabled?'':'display:none;'; ?>">保存设置</button>
+        </form>
+    </div>
 
     <!-- 编辑表单 -->
     <?php if ($edit_data): ?>
@@ -139,12 +207,22 @@ if (isset($_POST['action']) && $_POST['action'] === 'get_edit') {
             <button type="submit" class="btn btn-pink" style="padding:5px 14px;font-size:0.8rem;">搜索</button>
             <?php if ($search !== ''): ?><a href="msg_manage.php" class="btn btn-gray" style="padding:5px 12px;font-size:0.8rem;">清除</a><?php endif; ?>
         </form>
+        <div class="batch-bar">
+            <span id="selected-count" style="color:#FF69B4;font-weight:bold;font-size:0.9rem;"></span>
+            <form id="batch-form" method="post" onsubmit="return submitBatch()">
+                <input type="hidden" name="action" id="batch-action" value="">
+                <input type="hidden" name="batch_ids" id="batch-ids-input" value="">
+                <button type="submit" data-action="batch_delete" class="btn btn-red" style="display:none;">批量删除</button>
+                <button type="submit" data-action="batch_ban_ip" class="btn btn-orange" style="display:none;">批量封禁IP</button>
+            </form>
+        </div>
         <table>
-            <thead><tr><th>ID</th><th>昵称</th><th>邮箱</th><th>内容</th><th>IP</th><th>日期</th><th>操作</th></tr></thead>
+            <thead><tr><th style="width:30px;"><input type="checkbox" id="select-all" title="全选"></th><th>ID</th><th>昵称</th><th>邮箱</th><th>内容</th><th>IP</th><th>日期</th><th>操作</th></tr></thead>
             <tbody>
                 <?php if ($result && $result->num_rows > 0): ?>
                     <?php while ($row = $result->fetch_assoc()): ?>
                         <tr>
+                            <td><input type="checkbox" class="cb-item" value="<?php echo $row['id']; ?>"></td>
                             <td><?php echo $row['id']; ?></td>
                             <td><?php echo htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8'); ?></td>
                             <td class="mono"><?php echo htmlspecialchars($row['email'], ENT_QUOTES, 'UTF-8'); ?></td>
@@ -157,7 +235,7 @@ if (isset($_POST['action']) && $_POST['action'] === 'get_edit') {
                                     <input type="hidden" name="edit_id" value="<?php echo $row['id']; ?>">
                                     <input type="hidden" name="search" value="<?php echo htmlspecialchars($search); ?>">
                                     <input type="hidden" name="page" value="<?php echo $page; ?>">
-                                    <button type="submit" class="btn btn-green" style="padding:4px 8px;font-size:0.75rem;">编辑</button>
+                                    <button type="submit" class="btn btn-green btn-edit" style="padding:4px 8px;font-size:0.75rem;">编辑</button>
                                 </form>
                                 <form method="post" class="inline-form" onsubmit="return confirm('确定删除 ID:<?php echo $row['id']; ?> 的留言？');">
                                     <input type="hidden" name="action" value="delete">
@@ -173,7 +251,7 @@ if (isset($_POST['action']) && $_POST['action'] === 'get_edit') {
                         </tr>
                     <?php endwhile; ?>
                 <?php else: ?>
-                    <tr><td colspan="7" style="text-align:center;color:#999;padding:30px;">暂无留言</td></tr>
+                    <tr><td colspan="8" style="text-align:center;color:#999;padding:30px;">暂无留言</td></tr>
                 <?php endif; ?>
             </tbody>
         </table>
@@ -189,6 +267,43 @@ if (isset($_POST['action']) && $_POST['action'] === 'get_edit') {
 
     <p class="back"><a href="index.php">← 返回管理面板</a> | <a href="logout.php">退出登录</a></p>
 </div>
+<script>
+(function(){
+var master=document.getElementById('select-all');
+var items=document.querySelectorAll('.cb-item');
+var cnt=document.getElementById('selected-count');
+var form=document.getElementById('batch-form');
+var actionInput=document.getElementById('batch-action');
+var idsInput=document.getElementById('batch-ids-input');
+var editBtns=document.querySelectorAll('.btn-edit');
+function getChecked(){return document.querySelectorAll('.cb-item:checked');}
+function updateUI(){
+var checked=getChecked(),n=checked.length;
+cnt.textContent=n>0?'已选择 '+n+' 项':'';
+var btns=form.querySelectorAll('button[type="submit"]');
+btns.forEach(function(b){b.style.display=n>0?'':'none';});
+editBtns.forEach(function(b){b.style.display=n>0?'none':'';});
+}
+master.addEventListener('change',function(){
+items.forEach(function(cb){cb.checked=master.checked;});
+updateUI();
+});
+items.forEach(function(cb){cb.addEventListener('change',updateUI);});
+window.submitBatch=function(){
+var checked=getChecked();
+if(checked.length===0){alert('请先选择要操作的项');return false;}
+var clicked=document.activeElement;
+var action=clicked.getAttribute('data-action')||'batch_delete';
+var label=action==='batch_delete'?'删除':'封禁IP';
+if(!confirm('确定批量'+label+' '+checked.length+' 项？此操作不可撤销。'))return false;
+actionInput.value=action;
+var vals=[];
+checked.forEach(function(cb){vals.push(cb.value);});
+idsInput.value=JSON.stringify(vals);
+return true;
+};
+})();
+</script>
 </body>
 </html>
 <?php $conn->close(); ?>

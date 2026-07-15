@@ -44,7 +44,6 @@ margin: 12px 0px;
 a{
 cursor:url('../../images/pointer.cur'),pointer;
 color: #FF69B4;
-text-decoration:none;
 -webkit-tap-highlight-color: transparent;
 }
 a:hover {
@@ -86,9 +85,9 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: 50% 50%;
 background-color: white;
-background-image: url('https://www.dmoe.cc/random.php');
 }
 /*
+https://www.dmoe.cc/random.php
 @media all and (orientation : portrait){
 #rin-bg{
 top: 0;

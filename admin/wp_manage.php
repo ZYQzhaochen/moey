@@ -80,6 +80,25 @@ if (isset($_POST['action'])) {
             file_put_contents($target_file, implode(PHP_EOL, $new_lines) . PHP_EOL);
             $msg = '<span style="color:#27ae60;">图片已删除！ID: ' . $delete_id . '</span>';
         }
+	    } elseif ($action === 'batch_delete') {
+	        $ids = json_decode($_POST['batch_ids'], true);
+	        $deleted = 0;
+	        foreach ($ids as $entry) {
+	            $parts = explode('|', $entry);
+	            $del_id = $parts[0]; $del_form = $parts[1];
+	            $tf = $pic_dir . $del_form . ".txt";
+	            if (file_exists($tf)) {
+	                $ls = file($tf, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	                $nl = array();
+	                foreach ($ls as $l) {
+	                    if (!($l[0]==='{' && strpos($l, "{id:" . $del_id . "}")!==false)) $nl[] = $l;
+	                }
+	                file_put_contents($tf, implode(PHP_EOL, $nl) . PHP_EOL);
+	                $deleted++;
+	            }
+	        }
+	        $msg = '<span style="color:#27ae60;">已批量删除 ' . $deleted . ' 张图片</span>';
+
     } elseif ($action === 'get_edit') {
         $edit_id = $_POST['edit_id'];
         $edit_form = $_POST['edit_form'];
@@ -179,6 +198,9 @@ $total_pages = ceil($total / $per_page);
         .inline-form { display:inline; }
         .back { text-align:center; margin-top:16px; }
         .back a { color:#999; text-decoration:none; font-size:0.85rem; }
+        #select-all,.cb-item{appearance:none;-webkit-appearance:none;width:16px;height:16px;border:2px solid #ccc;border-radius:3px;background:#fff;cursor:pointer;vertical-align:middle;position:relative;margin:0;}
+        #select-all:checked,.cb-item:checked{background-color:#FF69B4;border-color:#FF69B4;background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Cpath fill=%27%23fff%27 d=%27M6 11L2.5 7.5 3.9 6.1 6 8.2 12.1 2.1 13.5 3.5z%27/%3E%3C/svg%3E");background-size:contain;}
+        .batch-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
     </style>
 </head>
 <body>
@@ -225,13 +247,13 @@ $total_pages = ceil($total / $per_page);
     </div>
 
     <div class="box" style="overflow-x:auto;">
-        <table>
-            <thead><tr><th>ID</th><th>链接</th><th>方向</th><th>操作</th></tr></thead>
+        <div class="batch-bar"><span id="selected-count" style="color:#FF69B4;font-weight:bold;font-size:0.9rem;"></span><form id="batch-form" method="post" onsubmit="return submitBatch()"><input type="hidden" name="action" id="batch-action" value=""><input type="hidden" name="batch_ids" id="batch-ids-input" value=""><button type="submit" data-action="batch_delete" class="btn btn-red" style="display:none;">批量删除</button></form></div><table>
+            <thead><tr><th style="width:30px;"><input type="checkbox" id="select-all" title="全选"></th><th>ID</th><th>链接</th><th>方向</th><th>操作</th></tr></thead>
             <tbody>
                 <?php if (count($items) > 0): ?>
                     <?php foreach ($items as $item): ?>
                         <tr>
-                            <td><?php echo $item['id']; ?></td>
+                            <td><input type="checkbox" class="cb-item" value="<?php echo $item['id'] . '|' . $item['form']; ?>"></td><td><?php echo $item['id']; ?></td>
                             <td class="link-cell">
                                 <a href="<?php echo htmlspecialchars($item['link']); ?>" target="_blank"><?php echo htmlspecialchars($item['link']); ?></a>
                                 <img src="<?php echo htmlspecialchars($item['link']); ?>" class="preview-img" onerror="this.style.display='none'" alt="">
@@ -242,7 +264,7 @@ $total_pages = ceil($total / $per_page);
                                     <input type="hidden" name="action" value="get_edit">
                                     <input type="hidden" name="edit_id" value="<?php echo $item['id']; ?>">
                                     <input type="hidden" name="edit_form" value="<?php echo $item['form']; ?>">
-                                    <button type="submit" class="btn btn-green" style="padding:4px 10px;">编辑</button>
+                                    <button type="submit" class="btn btn-green btn-edit" style="padding:4px 10px;">编辑</button>
                                 </form>
                                 <form method="post" class="inline-form" onsubmit="return confirm('确定删除图片 ID:<?php echo $item['id']; ?>？');">
                                     <input type="hidden" name="action" value="delete">
@@ -254,7 +276,7 @@ $total_pages = ceil($total / $per_page);
                         </tr>
                     <?php endforeach; ?>
                 <?php else: ?>
-                    <tr><td colspan="4" style="text-align:center;color:#999;padding:30px;">暂无图片</td></tr>
+                    <tr><td colspan="5" style="text-align:center;color:#999;padding:30px;">暂无图片</td></tr>
                 <?php endif; ?>
             </tbody>
         </table>
@@ -270,5 +292,41 @@ $total_pages = ceil($total / $per_page);
 
     <p class="back"><a href="index.php">← 返回管理面板</a> | <a href="logout.php">退出登录</a></p>
 </div>
+<script>
+(function(){
+var master=document.getElementById("select-all");
+var items=document.querySelectorAll(".cb-item");
+var cnt=document.getElementById("selected-count");
+var form=document.getElementById("batch-form");
+var actionInput=document.getElementById("batch-action");
+var idsInput=document.getElementById("batch-ids-input");
+var editBtns=document.querySelectorAll(".btn-edit");
+function getChecked(){return document.querySelectorAll(".cb-item:checked");}
+function updateUI(){
+var checked=getChecked(),n=checked.length;
+cnt.textContent=n>0?"已选择 "+n+" 项":"";
+var btns=form.querySelectorAll('button[type="submit"]');
+btns.forEach(function(b){b.style.display=n>0?"":"none";});
+editBtns.forEach(function(b){b.style.display=n>0?"none":"";});
+}
+master.addEventListener("change",function(){
+items.forEach(function(cb){cb.checked=master.checked;});
+updateUI();
+});
+items.forEach(function(cb){cb.addEventListener("change",updateUI);});
+window.submitBatch=function(){
+var checked=getChecked();
+if(checked.length===0){alert("请先选择要操作的项");return false;}
+var clicked=document.activeElement;
+var action=clicked.getAttribute("data-action")||"batch_delete";
+if(!confirm("确定批量删除 "+checked.length+" 项？此操作不可撤销。"))return false;
+actionInput.value=action;
+var vals=[];
+checked.forEach(function(cb){vals.push(cb.value);});
+idsInput.value=JSON.stringify(vals);
+return true;
+};
+})();
+</script>
 </body>
 </html>

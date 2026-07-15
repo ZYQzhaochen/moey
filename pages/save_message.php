@@ -7,7 +7,7 @@ require"../config/config.php";
 // 获取用户IP
 $ip = $_SERVER['REMOTE_ADDR'];
 
-// ===== 频率限制：每3分钟只能发送一条留言 =====
+// 频率限制
 $cooldown_seconds = 180; // 3分钟
 
 // 第一层：Session 快速检查（无需查询数据库）
@@ -31,7 +31,6 @@ $conn->query("SET NAMES utf8mb4");
 @$conn->query("ALTER TABLE messages MODIFY name VARCHAR(255) CHARACTER SET utf8mb4 NOT NULL");
 @$conn->query("ALTER TABLE messages MODIFY email VARCHAR(255) CHARACTER SET utf8mb4 NOT NULL");
 @$conn->query("ALTER TABLE messages MODIFY message TEXT CHARACTER SET utf8mb4 NOT NULL");
-
 
 // 自动建表（如果表不存在）
 $create_table_sql = "CREATE TABLE IF NOT EXISTS messages (
@@ -78,6 +77,23 @@ if ($captcha_input === '' || $captcha_input !== $_SESSION['captcha_code']) {
     exit;
 }
 unset($_SESSION['captcha_code']); // 验证后清除，防重用
+
+// 敏感词过滤
+$sw_flag = __DIR__ . '/../admin/sensitive_filter_on.txt';
+$sw_file = __DIR__ . '/../admin/sensitive_words.txt';
+if (file_exists($sw_flag) && trim(file_get_contents($sw_flag)) === '1' && file_exists($sw_file)) {
+	$words = file($sw_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	foreach ($words as $w) {
+		$w = trim($w);
+		if ($w === '') continue;
+		if (stripos($name, $w) !== false || stripos($email, $w) !== false || stripos($message, $w) !== false) {
+			$conn->close();
+			header('refresh:3; url=chat.php?blocked=1');
+			echo '您的留言不合规，请修改后重新提交。3秒钟后将返回留言板。';
+			exit;
+		}
+	}
+}
 
 // 判断提交的信息
 if (($name == '') || ($email == '') || ($message == '')) {
